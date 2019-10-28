@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.tests.Scenarios" hash-for-method="tc_MakeFutureApptAndCancel">tc_MakeFutureApptAndCancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">core.tests.Scenarios</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_MakeFutureApptAndCancel">
+                  </a> <!-- tc_MakeFutureApptAndCancel -->
+                  <span class="method-name">tc_MakeFutureApptAndCancel</span>
+                  <div class="stack-trace">java.lang.Exception: Failure in Creating Control =&gt; Platform: ANDROID, Page: HomePage, Control Name: consultationSuccessfullyBookedTxt, Locator Type: XPATH, Locator Value: //*[contains(@text, &apos;CONSULTATION SUCCESSFULLY BOOKED&apos;)]. Exception: Control could not be identified with locator type: XPATH and locator value: //*[contains(@text, &apos;CONSULTATION SUCCESSFULLY BOOKED&apos;)]
+	at control.Control.throwControlCreationException(Control.java:73)
+	at control.Control.createControl(Control.java:101)
+	at page.Page.getControl(Page.java:59)
+	at core.pages.HomePage.makeAnAppointmentWithViewOtherDoctors(HomePage.java:174)
+	at core.tests.Scenarios.tc_MakeFutureApptAndCancel(Scenarios.java:67)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;core.tests.Scenarios&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tc_MakeFutureApptAndCancel')
+data.setCell(0, 2, 'core.tests.Scenarios')
+data.setCell(0, 3, 335107);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">65 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">core.tests.Scenarios</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tc_Packge_HRBRSignaturePackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_BookAndCancelAppointment</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_HowToLoginOrSignUp</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_BloreMalleshwaramSignaturePackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_NotAbleToSeeMyCalendar</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_MumbaiMaladSignaturePackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_FindPrescriptionScanOrLabsReport</span>
+                <br/>
+                <span class="ignored-method-name">tc_CancelAppointment</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_GkVale</span>
+                <br/>
+                <span class="ignored-method-name">tc_BookAnAppointment</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_PuneShivajiNagarLuxuryPackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_BloreOARLuxuryPackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_AboutTermsAndConditions</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_MyContactNumberAlreadyShowingAsRegistered</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_ChangeInfoIfWrongTabChosen</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_ValidIdentityProofForMeOrMyChild</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_RescheduleMyAppointment</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_BloreJayanagarSignaturePackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_CannotSeeAvailableSlotsForMyDoc</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_PuneKalyaniNagarSignaturePackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_CantCancelAppointment</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_BloreMalleshwaramLuxuryPackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_BookAScan</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_BloreWhitefieldLuxuryPackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_CantSeeMyBookedAppointmentInApp</span>
+                <br/>
+                <span class="ignored-method-name">tc_BookALabTestXray</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_BookApptForFollowUpVisit</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_HRBRLuxuryPackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_EligibleForDiscount</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_DidnotGetOTP</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_CantSeeMPINOrMPID</span>
+                <br/>
+                <span class="ignored-method-name">tc_BookAnAppointmentUsingRadiologistScans</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_WhatIsGynaecCalendar</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_BloreOARSignaturePackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_WhatIsBump</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_PuneKalyaniNagarLuxuryPackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_BloreJayanagarLuxuryPackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_HealthRecords_ViewTransactions</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_BloreWhitefieldSignaturePackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_MumbaiVashiSuitePackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_BookLabOrScan</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_WhatIsMPIN</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_BookThroughIOB</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_BloreBellandurSignaturePackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_AppSignOut</span>
+                <br/>
+                <span class="ignored-method-name">tc_LoginWithvalidMobileNo</span>
+                <br/>
+                <span class="ignored-method-name">tc_BookALabTestLAB</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_HowDoICancelAppointment</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_MumbaiMaladLuxuryPackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_HealthRecords</span>
+                <br/>
+                <span class="ignored-method-name">tc_InviteFriendsAndFamily</span>
+                <br/>
+                <span class="ignored-method-name">tc_About_AboutCloudnine</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_GurgaonSector47SignaturePackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_BookACabForAppointmentFromApp</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_HealthRecords_ViewInvoiceAndPrescription</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_BookAnApptWithMyDoc</span>
+                <br/>
+                <span class="ignored-method-name">tc_BookAnAppointmentUsingRadiologistScansGurgaon</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_AvailableCloudnineLocation</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_SeeMyNameAsInvalid</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_PuneShivajiNagarSignaturePackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_ARI_AvailableDoctorsRelatedToParticularSpeciality</span>
+                <br/>
+                <span class="ignored-method-name">tc_Packge_MumbaiVashiDeluxePackage</span>
+                <br/>
+                <span class="ignored-method-name">tc_Account_Help_HowGynaecCalenderWorks</span>
+                <br/>
+                <span class="ignored-method-name">tc_ViewMedicalRecords</span>
+                <br/>
+                <span class="ignored-method-name">tc_CheckAppointmentFailed</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">core.tests.Scenarios</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">runOncePerSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">runOncePerContext(org.testng.TestRunner@3eb81efb)</span>
+                <span class="method-start">181 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">runOncePerClass(org.testng.TestRunner@3eb81efb)</span>
+                <span class="method-start">210 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">runOncePerMethod(org.testng.TestRunner@3eb81efb, public void core.tests.Scenarios.tc_MakeFutureApptAndCancel() throws...)</span>
+                <span class="method-start">220 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_MakeFutureApptAndCancel</span>
+                <span class="method-start">24578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc_MakeFutureApptAndCancel status=FAILURE method=Scenarios.tc_MakeFutureApptAndCanc...)</span>
+                <span class="method-start">359699 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

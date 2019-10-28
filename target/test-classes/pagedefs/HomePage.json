@@ -1,0 +1,479 @@
+{	
+	"makeAnApptBtn": {
+		"ANDROID": "xpath= //*[@text='MAKE AN APPOINTMENT '] | (//*[@contentDescription='ViewText' and ./parent::*[./parent::*[(./preceding-sibling::* | ./following-sibling::*)[@class='android.view.View']]]]/*[@text])[1]"
+	},
+	"apptConfDoneBtn": {
+		"ANDROID": "xpath= //*[@text='DONE']"
+	},
+	"addToCalendarBtn": {
+		"ANDROID": "xpath= //*[@text='ADD TO CALENDAR']"
+	},
+	"upcomingApptTxt": {
+		"ANDROID": "xpath=//*[@text='Upcoming Appointment']"
+	},
+	"3DotsImg": {
+		"ANDROID": "xpath=//*[@content-desc='ThreeDotsButton']"
+	},
+	"cancelBookingBtn": {
+		"ANDROID": "xpath=//*[@text='CANCEL BOOKING']"
+	},
+	"dismissBtn": {
+		"ANDROID": "xpath=//*[@text='DISMISS']"
+	},
+	"cancelConfYes": {
+		"ANDROID": "xpath=//*[@text='YES']"
+	},
+	"cancelYourApptCannotBeUndoneTxt": {
+		"ANDROID": "xpath=//*[@text='Cancelling your appointment cannot be undone. Are you sure you would like to cancel?']"
+	},
+	"letUsKnowWhyAreYouCancellingYourApptTxt": {
+		"ANDROID": "xpath=//*[@text='Let us know why you are cancelling your appointment.']"
+	},
+	"cancelConfNo": {
+		"ANDROID": "xpath=//*[@text='NO']"
+	},
+	"lastMinuteEmergencyBtn": {
+		"ANDROID": "xpath=//*[@text='LAST MINUTE EMERGENCY']"
+	},
+	"notSatisfiedBtn": {
+		"ANDROID": "xpath=//*[@text='NOT SATISFIED BY LAST CONSULTATION']"
+	},
+	"otherBtn": {
+		"ANDROID": "xpath=//*[@text='OTHER']"
+	},
+	"dismissCancelBtn": {
+		"ANDROID": "xpath=//*[@text='DISMISS']"
+	},
+	"cancelConfirmationMessageTxt": {
+		"ANDROID": "xpath=//*[@text='We have Successfully cancelled your appointment.]"
+	},
+	"cancelConfirmationDoneBtn": {
+		"ANDROID": "xpath=//*[@text='DONE']"
+	},
+	"doYouWantToContinueTxt": {
+		"ANDROID": "xpath=//*[@text='Do you want to continue consultation with this doctor? ']"
+	},
+	"whomIsThisAppointmentFortxt": {
+		"ANDROID": "xpath=//*[@text='Whom is this appointment for?']"
+	},
+	"doYouWantToContinueWithThisDoctxt": {
+		"ANDROID": "xpath=//*[@text='Do you want to continue consultation with this doctor? ']"
+	},
+	"thisIsTheEarliestAvailabilityForAConsultationtxt": {
+		"ANDROID": "xpath=//*[contains(@text, 'This is the earliest availability for a consultation with ')]"
+	},
+	"totalAmountTxt": {
+		"ANDROID": "xpath=//*[contains(@text, 'Total amount ')]"
+	},
+	"consultationSuccessfullyBookedTxt": {
+		"ANDROID": "xpath=//*[@text='CONSULTATION SUCCESSFULLY BOOKED'] | //*[contains(@text, 'CONSULTATION SUCCESSFULLY BOOKED')]"
+	},
+	"testPregBtn": {
+		"ANDROID": "xpath=//*[@text='Whom is this appointment for?']/following-sibling::android.view.ViewGroup[1]"
+	},
+	"testGynaeBtn": {
+		"ANDROID": "xpath=//*[@text='Whom is this appointment for?']/following-sibling::android.view.ViewGroup[2]"
+	},
+	"testPeadBtn": {
+		"ANDROID": "xpath=//*[@text='Whom is this appointment for?']/following-sibling::android.view.ViewGroup[3]"
+	},
+	"testFerBtn": {
+		"ANDROID": "xpath=//*[@text='Whom is this appointment for?']/following-sibling::android.view.ViewGroup[4]"
+	},
+	"soubhagyaBtn": {
+		"ANDROID": "xpath=//*[@text='Whom is this appointment for?']/following-sibling::android.view.ViewGroup[5]"
+	},
+	"g.@Btn": {
+		"ANDROID": "xpath=//*[@text='Whom is this appointment for?']/following-sibling::android.view.ViewGroup[6]"
+	},
+	"sumanBtn": {
+		"ANDROID": "xpath=//*[@text='Whom is this appointment for?']/following-sibling::android.view.ViewGroup[9]"
+	},
+	"testObgBtn": {
+		"ANDROID": "xpath=//android.widget.TextView[@text='DR. TESTOBG OAR'] | (//*[@class='android.view.ViewGroup' and ./parent::*[@class='android.widget.ScrollView' and ./parent::*[./parent::*[./parent::*[@class='android.view.ViewGroup'] and (./preceding-sibling::* | ./following-sibling::*)[@class='android.widget.ScrollView']]]]]/*/*[@text and (./preceding-sibling::* | ./following-sibling::*)[@class='android.view.ViewGroup']])[1]"
+	},
+	"viewOtherDocsBtn": {
+		"ANDROID": "xpath=//android.widget.TextView[@text='VIEW OTHER DOCTORS']"
+	},
+	"selectDefaultTimeBtn": {
+		"ANDROID": "xpath=//android.widget.TextView[contains(@text, '-2019')]"
+	},
+	"payAtHospitalBtn": {
+		"ANDROID": "xpath=//android.widget.TextView[@text='PAY AT HOSPITAL'] | //*[contains(@text,'PAY AT HOSPITAL')]"
+	},
+	"apptFailedTxt": {
+		"ANDROID": "xpath=//android.widget.TextView[@text='CONSULTATION BOOKING FAILED']"
+	},
+	"viewOtherDoctorsBtn": {
+		"ANDROID": "xpath=//android.widget.TextView[@text='VIEW OTHER DOCTORS']"
+	},
+	"selectYourCityTxt": {
+		"ANDROID": "xpath=//*[@text='Select your City']"
+	},
+	"selectCityBengaluruBtn": {
+		"ANDROID": "xpath=//*[@text='Select your City']/following-sibling::android.view.ViewGroup[1]"
+	},
+	"selectCityMumbaiBtn": {
+		"ANDROID": "xpath=//*[@text='Select your City']/following-sibling::android.view.ViewGroup[2]"
+	},
+	"selectCityPuneBtn": {
+		"ANDROID": "xpath=//*[@text='Select your City']/following-sibling::android.view.ViewGroup[3]"
+	},
+	"selectCityGurgaonBtn": {
+		"ANDROID": "xpath=//*[@text='Select your City']/following-sibling::android.view.ViewGroup[4]"
+	},
+	"selectCityChennaiBtn": {
+		"ANDROID": "xpath=//*[@text='Select your City']/following-sibling::android.view.ViewGroup[5]"
+	},
+	"selectCityChandigarhBtn": {
+		"ANDROID": "xpath=//*[@text='Select your City']/following-sibling::android.view.ViewGroup[6]"
+	},
+	"selectCityNoidaBtn": {
+		"ANDROID": "xpath=//*[@text='Select your City']/following-sibling::android.view.ViewGroup[7]"
+	},
+	"selectYourLocationTxt": {
+		"ANDROID": "xpath=//*[@text='Select location ']"
+	},
+	"selectLocMalleshwaramBtn": {
+		"ANDROID": "xpath=//*[@text='Select location ']/following-sibling::android.view.ViewGroup[1]"
+	},
+	"malleshwaramTxt": {
+		"ANDROID": "xpath=//*[contains(@text,'Malleshwaram')]"
+	},
+	"selectLocJayanagarBtn": {
+		"ANDROID": "xpath=//*[@text='Select location ']/following-sibling::android.view.ViewGroup[2]"
+	},
+	"jayanagarTxt": {
+		"ANDROID": "xpath=//*[contains(@text,'Jayanagar')]"
+	},
+	"selectLocWhitefieldBtn": {
+		"ANDROID": "xpath=//*[@text='Select location ']/following-sibling::android.view.ViewGroup[3]"
+	},
+	"whitefieldTxt": {
+		"ANDROID": "xpath=//*[contains(@text,'Whitefield')]"
+	},
+	"selectLocOARBtn": {
+		"ANDROID": "xpath=//*[@text='Select location ']/following-sibling::android.view.ViewGroup[4]"
+	},
+	"oldARTxt": {
+		"ANDROID": "xpath=//*[contains(@text,'Old Airport Road')]"
+	},
+	"selectLocBellandurBtn": {
+		"ANDROID": "xpath=//*[@text='Select location ']/following-sibling::android.view.ViewGroup[5]"
+	},
+	"bellandurTxt": {
+		"ANDROID": "xpath=//*[contains(@text,'Bellandur')]"
+	},
+	"selectLocHRBRBtn": {
+		"ANDROID": "xpath=//*[@text='Select location ']/following-sibling::android.view.ViewGroup[6]"
+	},
+	"selectLocMaladBtn": {
+		"ANDROID": "xpath=//*[@text='Select location ']/following-sibling::android.view.ViewGroup[1]"
+	},
+	"maladTxt": {
+		"ANDROID": "xpath=//*[contains(@text,'Malad')]"
+	},
+	"selectLocVashiBtn": {
+		"ANDROID": "xpath=//*[@text='Select location ']/following-sibling::android.view.ViewGroup[2]"
+	},
+	"vashiTxt": {
+		"ANDROID": "xpath=//*[contains(@text,'Vashi')]"
+	},
+	"selectLocShivajiNagarBtn": {
+		"ANDROID": "xpath=//*[@text='Select location ']/following-sibling::android.view.ViewGroup[1]"
+	},
+	"shivajiNagarTxt": {
+		"ANDROID": "xpath=//*[contains(@text,'Shivaji Nagar')]"
+	},
+	"selectLocKalyaniNagarBtn": {
+		"ANDROID": "xpath=//*[@text='Select location ']/following-sibling::android.view.ViewGroup[2]"
+	},
+	"kalyaniNagarTxt": {
+		"ANDROID": "xpath=//*[contains(@text,'Kalyani Nagar')]"
+	},
+	"selectLocSector47Btn": {
+		"ANDROID": "xpath=//*[@text='Select location ']/following-sibling::android.view.ViewGroup[1]"
+	},
+	"sector47Txt": {
+		"ANDROID": "xpath=//*[contains(@text,'Sector 47')]"
+	},
+	"selectLocTNagarBtn": {
+		"ANDROID": "xpath=//*[@text='Select location ']/following-sibling::android.view.ViewGroup[1]"
+	},
+	"selectLocChandigarhBtn": {
+		"ANDROID": "xpath=//*[@text='Select location ']/following-sibling::android.view.ViewGroup[1]"
+	},
+	"selectLocSector51Btn": {
+		"ANDROID": "xpath=//*[@text='Select location ']/following-sibling::android.view.ViewGroup[1]"
+	},
+	"selectDocTypeTxt": {
+		"ANDROID": "xpath=//*[@text='Select doctor type']"
+	},
+	"selectDocTypePediattricianBtn": {
+		"ANDROID": "xpath=//*[@text='PEDIATRICIAN']"
+	},
+	"selectDocTypeGynaecologistBtn": {
+		"ANDROID": "xpath=//*[@text='GYNAECOLOGIST']"
+	},
+	"selectDocTypeFertilityBtn": {
+		"ANDROID": "xpath=//*[@text='FERTILITY']"
+	},
+	"selectDocTypePhysiotherapistBtn": {
+		"ANDROID": "xpath=//*[@text='PHYSIOTHERAPIST']"
+	},
+	"selectDocTypeNutritionistBtn": {
+		"ANDROID": "xpath=//*[@text='NUTRITIONIST']"
+	},
+	"selectDocTypeRadiologyScansBtn": {
+		"ANDROID": "xpath=//*[@text='RADIOLOGY/SCANS']"
+	},
+	"selectDocTypeCosmetologistBtn": {
+		"ANDROID": "xpath=//*[@text='COSMETOLOGIST']"
+	},
+	"selectDocTypeDermatologistBtn": {
+		"ANDROID": "xpath=//*[@text='DERMATOLOGIST']"
+	},
+	"selectDocTypeAllDoctorsBtn": {
+		"ANDROID": "xpath=//*[@text='ALL DOCTORS']"
+	},
+	"searchBox": {
+		"ANDROID": "xpath=//*[@text='Search Doctors / Speciality']"
+	},
+	"testObgDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. Testobg Oar']"
+	},
+	"modhulikaDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. Modhulika Bhattacharya']"
+	},
+	"surekhaSanjeevManagoliDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. Surekha Sanjeev Managoli']"
+	},
+	"henaBhagdeDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. Hena Bhagde']"
+	},
+	"searchedDocContinueBtn": {
+		"ANDROID": "xpath=//*[@text='CONTINUE']"
+	},
+	"docCardViewProfileLink": {
+		"ANDROID": "xpath=//*[@text='VIEW PROFILE']"
+	},
+	"viewOtherAppointmentsBtn": {
+		"ANDROID": "xpath=//*[@text='VIEW OTHER APPOINTMENTS']"
+	},
+	"goBackAndTryAgainBtn": {
+		"ANDROID": "xpath=//*[@text='GO BACK & TRY AGAIN']"
+	},
+	"selectATimeSlotTxt": {
+		"ANDROID": "xpath=//*[@text='Select a Time Slot']"
+	},
+	"slotBtn": {
+		"ANDROID": "xpath=//*[@content-desc='ButtonText']"
+	},
+	"afterSlotContinueBtn": {
+		"ANDROID": "xpath=//*[contains(@text,'CONTINUE WITH ')]"
+	},
+	"viewMedicalRecordsBtn": {
+		"ANDROID": "xpath=//*[contains(@text,'VIEW ')] | //*[contains(@text,'MEDICAL RECORDS')]"
+	},
+	"appointmentOfTestPregTxt": {
+		"ANDROID": "xpath=//*[contains(@text,'Appointments of ')] && //*[contains(@text,'Test_Preg')]"
+	},
+	"appointmentOfTestFertilityTxt": {
+		"ANDROID": "xpath=//*[contains(@text,'Test_Fertility')]"
+	},
+	"changeBtn": {
+		"ANDROID": "xpath=//*[@text='CHANGE']"
+	},
+	"labsTab": {
+		"ANDROID": "xpath=//*[@text='LABS']"
+	},
+	"scansTab": {
+		"ANDROID": "xpath=//*[@text='SCANS']"
+	},
+	"consultationsTab": {
+		"ANDROID": "xpath=//*[@text='CONSULTATIONS']"
+	},
+	"selectYourAccountTxt": {
+		"ANDROID": "xpath=//*[@text='Select your account']"
+	},
+	"changeTestPregBtn": {
+		"ANDROID": "xpath=//*[@text='Select your account']/following-sibling::android.view.ViewGroup[1]"
+	},
+	"changeTestGynaeBtn": {
+		"ANDROID": "xpath=//*[@text='Select your account']/following-sibling::android.view.ViewGroup[2]"
+	},
+	"changeTestPeadBtn": {
+		"ANDROID": "xpath=//*[@text='Select your account']/following-sibling::android.view.ViewGroup[3]"
+	},
+	"changeTestFerBtn": {
+		"ANDROID": "xpath=//*[@text='Select your account']/following-sibling::android.view.ViewGroup[4]"
+	},
+	"chnageSoubhagyaBtn": {
+		"ANDROID": "xpath=//*[@text='Select your account']/following-sibling::android.view.ViewGroup[5]"
+	},
+	"changeG.@Btn": {
+		"ANDROID": "xpath=//*[@text='Select your account']/following-sibling::android.view.ViewGroup[6]"
+	},
+	"changeSumanBtn": {
+		"ANDROID": "xpath=//*[@text='Select your account']/following-sibling::android.view.ViewGroup[9]"
+	},
+	"bookALabTestBtn": {
+		"ANDROID": "xpath=//*[@text='BOOK A LAB TEST']"
+	},
+	"areYouLookingForLabBtn": {
+		"ANDROID": "xpath=//*[@text='LAB']"
+	},
+	"areYouLookingForXrayBtn": {
+		"ANDROID": "xpath=//*[@text='X-RAYS']"
+	},
+	"areYouLookingForLabOrXrayTxt": {
+		"ANDROID": "xpath=//*[@text='Are you looking for lab or x-rays?']"
+	},
+	"bookALabOrScanSearch": {
+		"ANDROID": "xpath=//*[@text='Search']"
+	},
+	"addToCartBtn": {
+		"ANDROID": "xpath=//*[@text='Add To Cart']"
+	},
+	"viewCartAndProceedBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'VIEW CART & PROCEED ')]"
+	},
+	"forWhomThisConsultationIsForTxt": {
+		"ANDROID": "xpath=//*[@text='For whom this consultation is for ?']"
+	},
+	"BASLtestPregBtn": {
+		"ANDROID": "xpath=//*[@text='For whom this consultation is for ?']/following-sibling::android.view.ViewGroup[1]"
+	},
+	"selectReferringDoctorBtn": {
+		"ANDROID": "xpath=//*[@text='SELECT REFERRING DOCTOR']"
+	},
+	"selectBookingDateBtn": {
+		"ANDROID": "xpath=//*[@text='SELECT BOOKING DATE']"
+	},
+	"selectBookingDate20Btn": {
+		"ANDROID": "xpath=//*[@text='20']"
+	},
+	"calendarOKBtn": {
+		"ANDROID": "xpath=//*[@text='OK']"
+	},
+	"calendarCancelBtn": {
+		"ANDROID": "xpath=//*[@text='CANCEL']"
+	},
+	"proceedToPayBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'PROCEED TO PAY ')]"
+	},
+	"proceedBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'PROCEED')]"
+	},
+	"priyankaDocCard": {
+		"ANDROID": "xpath=//*[contains(@text, 'Priyanka')]"
+	},
+	"chooseAScanTxt": {
+		"ANDROID": "xpath=//*[@text='Choose a scan']"
+	},
+	"ntScanBtn": {
+		"ANDROID": "xpath=//*[@text='Nuchal Translucency (NT) Scan']"
+	},
+	"anomalyScanBtn": {
+		"ANDROID": "xpath=//*[@text='Anomaly scan'] | //*[@text='ANOMALY SCAN']"
+	},
+	"bppBtn": {
+		"ANDROID": "xpath=//*[@text='Bio Physical Profile (BPP)']"
+	},
+	"epScanBtn": {
+		"ANDROID": "xpath=//*[@text='Early Pregnancy (EP) Scan']"
+	},
+	"pelvicScanBtn": {
+		"ANDROID": "xpath=//*[@text='Pelvic Scan']"
+	},
+	"follicularScanBtn": {
+		"ANDROID": "xpath=//*[@text='Follicular Scan']"
+	},
+	"chooseAScanCrossBtn": {
+		"ANDROID": "xpath=//*[@content-desc='Cross'] | //*[@contentDescription='Cross']"
+	},
+	"paymentTxt": {
+		"ANDROID": "xpath=//*[contains(@text, 'Payment')]"
+	},
+	"bookAScanBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'BOOK A SCAN')]"
+	},
+	"packagesBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'Packages')]"
+	},
+	"changeLocationBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'Change Location')]"
+	},
+	"signaturePackageBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'Signature')]"
+	},
+	"signaturePackageTxt": {
+		"ANDROID": "xpath=//*[@text='Signature package']"
+	},
+	"luxuryPackageBtn": {
+		"ANDROID": "xpath=//*[@text='Luxury package']"
+	},
+	"luxuryPackageTxt": {
+		"ANDROID": "xpath=//*[contains(@text, 'Luxury package')]"
+	},
+	"platinumPackageBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'Platinum')]"
+	},
+	"prenatalPackageBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'Prenatal')]"
+	},
+	"suitePackageBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'Suite package')]"
+	},
+	"suitePackageTxt": {
+		"ANDROID": "xpath=//*[@text='Suite package']"
+	},
+	"deluxePackageBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'Deluxe package')]"
+	},
+	"deluxePackageTxt": {
+		"ANDROID": "xpath=//*[@text='Deluxe package']"
+	},
+	"termsAndConditionsTxt": {
+		"ANDROID": "xpath=//*[contains(@text, 'Terms & Conditions')]"
+	},
+	"healthRecordsTxt": {
+		"ANDROID": "xpath=//*[contains(@text, 'Health Records')]"
+	},
+	"bookAndPayForYourPrescribedLabTestTxt": {
+		"ANDROID": "xpath=//*[contains(@text, 'Book and pay for your prescribed lab tests')]"
+	},
+	"bookAndPayForYourPrescribedScanAndScheduleYourApptTxt": {
+		"ANDROID": "xpath=//*[contains(@text, 'Book and pay for your prescribed scan and schedule your appointment')]"
+	},
+	"labPaymentTxt": {
+		"ANDROID": "xpath=//*[contains(@text, 'Lab Payment')]"
+	},
+	"scanPaymentTxt": {
+		"ANDROID": "xpath=//*[contains(@text, 'Scan Payment')]"
+	},
+	"selectProcedureTxt": {
+		"ANDROID": "xpath=//*[contains(@text, 'Select procedure')]"
+	},
+	"consultationBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'CONSULTATION')]"
+	},
+	"hrbrKamanahalliTxt": {
+		"ANDROID": "xpath=//*[contains(@text, 'HRBR/Kamanahalli')]"
+	},
+	"proceedBookingBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'PROCEED')]"
+	},
+	"goAheadBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'GO AHEAD')]"
+	},
+	"bedBookingTxt": {
+		"ANDROID": "xpath=//*[contains(@text, 'Bed Booking')]"
+	},
+	"payNowBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'PAY NOW')]"
+	},
+	"pckgTestPregBtn": {
+		"ANDROID": "xpath=//*[@text='For whom you want to book?']/following-sibling::android.view.ViewGroup[1]"
+	}
+}

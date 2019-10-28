@@ -1,0 +1,50 @@
+{
+	"skipPopUpBtn": {
+		"ANDROID": "xpath=//*[@id='skip_now'] | //*[@text='SKIP'] | //*[@resource-id='com.zivame.consumer:id/skip_now']"
+	},
+	"skipTxt": {
+		"ANDROID": "xpath=//*[@text='SKIP '] | //*[contains(@text,'SK')]"
+	},
+	"loginBtn": {
+		"ANDROID": "xpath= //*[contains(@text,'LOG')] | //*[@text='LOGIN / REGISTER'] | //*[@text and ./parent::*[@class='android.view.ViewGroup' and ./parent::*[(./preceding-sibling::* | ./following-sibling::*)[@class='android.view.ViewGroup']]]]"
+	},
+	"mobileNoTxt": {
+		"ANDROID": "xpath= //*[contains(@text,'Mob')] |  //*[@contentDescription='InputBox'] "
+	},
+	"otpTxt": {
+		"ANDROID": "xpath=//android.widget.EditText[@contentDescription='InputBox' or @content-desc='InputBox' or contains(@text,'X')]"
+	},
+	"nextBtn": {
+		"ANDROID": "xpath= //*[@content-desc='Forward'] | //*[@contentDescription='Forward']"
+	},
+	"homePageTxt": {
+		"ANDROID": "xpath= //*[@text='MAKE AN APPOINTMENT '] | (//*[@contentDescription='ViewText' and ./parent::*[./parent::*[(./preceding-sibling::* | ./following-sibling::*)[@class='android.view.View']]]]/*[@text])[1]"
+	},
+	"shopTxt": {
+		"ANDROID": "xpath=//*[@text=' SHOP ']"
+	},
+	"locPerOKBtn": {
+		"ANDROID": "xpath=//*[@resource-id='android:id/button1']"
+	},
+	"findAllYourNeedsInOnePlaceTxt": {
+		"ANDROID": "xpath=//*[@text='Find all your needs in one place ']"
+	},
+	"easilyBookYourAppointmentsTxt": {
+		"ANDROID": "xpath=//*[@text='Easily book your Appointments ']"
+	},
+	"keepTrackOfYourAccountTxt": {
+		"ANDROID": "xpath=//*[@text='Keep track of your Account    ']"
+	},
+	"continueBtn": {
+		"ANDROID": "xpath=//*[@text='CONTINUE']"
+	},
+	"weAreGladYouAreHereTxt": {
+		"ANDROID": "xpath=//*[@text='We’re so glad you’re here to experience Cloudnine']"
+	},
+	"enterRegisteredMobileNumberTxt": {
+		"ANDROID": "xpath=//*[@text='Enter registered mobile number']"
+	},
+	"enterOTPTxt": {
+		"ANDROID": "xpath=//*[@text='Hold on, I am verifying the mobile number. Enter OTP.']"
+	}
+}

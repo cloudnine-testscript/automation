@@ -1,0 +1,293 @@
+{
+	"accountBtn": {
+		"ANDROID": "xpath=//*[@text='ACCOUNT']"
+	},
+	"healthRecordsBtn": {
+		"ANDROID": "xpath=//*[@text='Health Records']"
+	},
+	"healthRecordsTxt": {
+		"ANDROID": "xpath=//*[@text='Health Records']"
+	},
+	"consultationsTab": {
+		"ANDROID": "xpath=//*[@text='CONSULTATIONS']"
+	},
+	"labsTab": {
+		"ANDROID": "xpath=//*[@text='LABS']"
+	},
+	"scansTab": {
+		"ANDROID": "xpath=//*[@text='SCANS']"
+	},
+	"changeBtn": {
+		"ANDROID": "xpath=//*[@text='CHANGE']"
+	},
+	"pastAppointmentsTxt": {
+		"ANDROID": "xpath=//*[@text='Past Appointments']"
+	},
+	"consultationDetailsCardBtn": {
+		"ANDROID": "xpath=(//*[@class='android.view.ViewGroup' and ./parent::*[@class='android.widget.ScrollView' and (./preceding-sibling::* | ./following-sibling::*)[@class='android.view.ViewGroup']]]/*/*/*[@class='android.view.ViewGroup' and ./*[./*[@text]] and ./*[@class='android.widget.ImageView'] and ./parent::*[(./preceding-sibling::* | ./following-sibling::*)[./*[@class='android.widget.ImageView']]]])[1]"
+	},
+	"viewInvoiceBtn": {
+		"ANDROID": "xpath=//*[@text='VIEW INVOICE']"
+	},
+	"viewPrescriptionBtn": {
+		"ANDROID": "xpath=//*[@text='VIEW PRESCRIPTION']"
+	},
+	"leaveFeedbackTxt": {
+		"ANDROID": "xpath=//*[@text='LEAVE FEEDBACK']"
+	},
+	"pleaseWaitTxt": {
+		"ANDROID": "xpath=//*[@text='Please wait...']"
+	},
+	"crossBtn": {
+		"ANDROID": "xpath=//*[@class='android.widget.ImageView' and ./parent::*[@class='android.view.ViewGroup']]"
+	},
+	"technicalErrToastTxt": {
+		"ANDROID": "xpath=//*[@text='Oops. Technical error']"
+	},
+	"noPrescriptionTxt": {
+		"ANDROID": "xpath=//*[@resource-id='android:id/alertTitle']"
+	},
+	"noPrescriptionOKBtn": {
+		"ANDROID": "xpath=//*[@resource-id='android:id/button1']"
+	},
+	"transactionsBtn": {
+		"ANDROID": "xpath=//*[@text='Transactions']"
+	},
+	"enentsBtn": {
+		"ANDROID": "xpath=//*[@text='Events']"
+	},
+	"myProfileBtn": {
+		"ANDROID": "xpath=//*[@text='My Profile']"
+	},
+	"addFamilyMemberBtn": {
+		"ANDROID": "xpath=//*[@text='Add Family Member']"
+	},
+	"updateAvailableBtn": {
+		"ANDROID": "xpath=//*[@text='Update Available']"
+	},
+	"aboutBtn": {
+		"ANDROID": "xpath=//*[@text='About']"
+	},
+	"helpAndSupportBtn": {
+		"ANDROID": "xpath=//*[@text='Help & Support']"
+	},
+	"inviteFamilyAndFriendsBtn": {
+		"ANDROID": "xpath=//*[@text='Invite Family & Friends']"
+	},
+	"signOutBtn": {
+		"ANDROID": "xpath=//*[@text='Sign Out']"
+	},
+	"inviteGmailBtn": {
+		"ANDROID": "xpath=//*[@text='Gmail']"
+	},
+	"gmailToField": {
+		"ANDROID": "xpath=//*[@resource-id='com.google.android.gm:id/to']"
+	},
+	"gmailSendButton": {
+		"ANDROID": "xpath=//*[@resource-id='com.google.android.gm:id/send']"
+	},
+	"signMeOutBtn": {
+		"ANDROID": "xpath=//*[@text='YES, SIGN ME OUT']"
+	},
+	"aboutCloudnineBtn": {
+		"ANDROID": "xpath=//*[@text='About Cloudnine']"
+	},
+	"termsAndConditionsBtn": {
+		"ANDROID": "xpath=//*[@text='Terms and Conditions']"
+	},
+	"aboutCloudnineAboutUsTxt": {
+		"ANDROID": "xpath=//*[@text='About Us']"
+	},
+	"tAndcTermsAndConditionsTxt": {
+		"ANDROID": "xpath=//*[@text='Terms and Conditions']"
+	},
+	"helpAndSupportTxt": {
+		"ANDROID": "xpath=//*[@text='Help & Support']"
+	},
+	"aGuidToIOBBtn": {
+		"ANDROID": "xpath=(//*[@class='android.view.ViewGroup' and ./parent::*[@class='android.widget.ScrollView']]/*/*[@text and ./parent::*[@class='android.view.ViewGroup'] and (./preceding-sibling::* | ./following-sibling::*)[@class='android.widget.ImageView']])[1]"
+	},
+	"bookLabTestOrScanBtn": {
+		"ANDROID": "xpath=//*[@text='Book Lab Test or Scan']"
+	},
+	"bookingAnAppointmentBtn": {
+		"ANDROID": "xpath=//*[@text='Booking an Appointment']"
+	},
+	"bumpBtn": {
+		"ANDROID": "xpath=//*[@text='Bump']"
+	},
+	"whatIsBumpBtn": {
+		"ANDROID": "xpath=//*[@text='What is Bump?']"
+	},
+	"gynaecCaledarBtn": {
+		"ANDROID": "xpath=//*[@text='Gynaec Calendar']"
+	},
+	"howDoesItWorkBtn": {
+		"ANDROID": "xpath=//*[@text='How does it work?']"
+	},
+	"notAbleToSeeMyynaecCalendarBtn": {
+		"ANDROID": "xpath=//*[@text='Not able to see my Gynaec Calendar?']"
+	},
+	"whatIsGynaecCalendarBtn": {
+		"ANDROID": "xpath=//*[@text='What is Gynaec Calendar']"
+	},
+	"helAndSupportHealthRecordsBtn": {
+		"ANDROID": "xpath=//*[@text='Health Records']"
+	},
+	"howToFindMyPrescriptionsScanOrLabReportsBtn": {
+		"ANDROID": "xpath=//*[@text='How to find my prescriptions, scan or lab reports?']"
+	},
+	"loginOrSignupBtn": {
+		"ANDROID": "xpath=//*[@text='Login or Signup']"
+	},
+	"howToLoginOrSignupBtn": {
+		"ANDROID": "xpath=//*[@text='How to Login or Signup?']"
+	},
+	"mpinBtn": {
+		"ANDROID": "xpath=//*[@text='MPIN']"
+	},
+	"whatIsMPINBtn": {
+		"ANDROID": "xpath=//*[@text='What is MPIN?']"
+	},
+	"howToBookLabOrScanBtn": {
+		"ANDROID": "xpath=//*[@text='How to book Lab or Scan?']"
+	},
+	"bookAnAppointmentBtn": {
+		"ANDROID": "xpath=//*[@text='Book an appointment'] | (//*[@class='android.view.ViewGroup' and ./parent::*[@class='android.widget.ScrollView']]/*/*[@text and ./parent::*[@class='android.view.ViewGroup'] and (./preceding-sibling::* | ./following-sibling::*)[@class='android.widget.ImageView']])[2]"
+	},
+	"appointmentReletedIssuesBtn": {
+		"ANDROID": "xpath=//*[@text='Appointment Related Issues']"
+	},
+	"amIElegibleForDiscountsAndOffersBtn": {
+		"ANDROID": "xpath=//*[@text='Am I eligible for discounts and offers?']"
+	},
+	"howDoICancelAnAppointmentBtn": {
+		"ANDROID": "xpath=//*[@text='How do I cancel an appointment?']"
+	},
+	"howDoIChangeTheInformationIfWrongTabIsChosenBtn": {
+		"ANDROID": "xpath=//*[@text='How do I change the information if wrong tab is chosen?']"
+	},
+	"howDoIKnowTheAvailableCloudnineLocationBtn": {
+		"ANDROID": "xpath=//*[@text='How do I know the available Cloudnine locations?']"
+	},
+	"howDoIRescheduleMyAppointmentBtn": {
+		"ANDROID": "xpath=//*[@text='How do I reschedule my appointment?']"
+	},
+	"howToBookACabForTheApptUsingTheAppBtn": {
+		"ANDROID": "xpath=//*[@text='How to book a cab for the appointment using this App?']"
+	},
+	"howToBookAnApptForFollowupVisitBtn": {
+		"ANDROID": "xpath=//*[@text='How to book an appointment for followup visit?']"
+	},
+	"howToBookAnAppointmentWithMyDoctorBtn": {
+		"ANDROID": "xpath=//*[@text='How to book an appointment with my doctor?']"
+	},
+	"iCantSeeAvailableSlotsForMyDocBtn": {
+		"ANDROID": "xpath=(//*[@class='android.view.ViewGroup' and ./parent::*[@class='android.widget.ScrollView']]/*/*[@text and ./parent::*[@class='android.view.ViewGroup'] and (./preceding-sibling::* | ./following-sibling::*)[@class='android.widget.ImageView']])[2]"
+	},
+	"iDidntGetOTPWhatToDoBtn": {
+		"ANDROID": "xpath=(//*[@class='android.view.ViewGroup' and ./parent::*[@class='android.widget.ScrollView']]/*/*[@text and ./parent::*[@class='android.view.ViewGroup'] and (./preceding-sibling::* | ./following-sibling::*)[@class='android.widget.ImageView']])[3]"
+	},
+	"myContactNoIsAlreadyShowingAsRegisteredWhatShouldBeTheNextStepBtn": {
+		"ANDROID": "xpath=//*[@text='My contact number is already showing as registered, what should be the next step?']"
+	},
+	"whatAreTheValidIdentityProofForMyselfOrMyChildForRegBtn": {
+		"ANDROID": "xpath=//*[@text='What are the valid Identity proof, for myself or my child, for registration?']"
+	},
+	"whoAreTheAvaiDocsRelatedToAParSpecialityBtn": {
+		"ANDROID": "xpath=//*[@text='Who are the available doctors related to a particular speciality?']"
+	},
+	"whyCantICancelMyAppointmentBtn": {
+		"ANDROID": "xpath=(//*[@class='android.view.ViewGroup' and ./parent::*[@class='android.widget.ScrollView']]/*/*[@text and ./parent::*[@class='android.view.ViewGroup'] and (./preceding-sibling::* | ./following-sibling::*)[@class='android.widget.ImageView']])[7]"
+	},
+	"whyCantISeeMyApptOnTheAppWhichIMadeThroughAppBtn": {
+		"ANDROID": "xpath=(//*[@class='android.view.ViewGroup' and ./parent::*[@class='android.widget.ScrollView']]/*/*[@text and ./parent::*[@class='android.view.ViewGroup'] and (./preceding-sibling::* | ./following-sibling::*)[@class='android.widget.ImageView']])[6]"
+	},
+	"whyCantSeeMyMPINOrMPIDDetailsBtn": {
+		"ANDROID": "xpath=(//*[@class='android.view.ViewGroup' and ./parent::*[@class='android.widget.ScrollView']]/*/*[@text and ./parent::*[@class='android.view.ViewGroup'] and (./preceding-sibling::* | ./following-sibling::*)[@class='android.widget.ImageView']])[7]"
+	},
+	"whyDoISeeMyNameIsInvalidBtn": {
+		"ANDROID": "xpath=//*[@text='Why do I see my name is invalid?']"
+	},
+	"howToBookAnApptThroughIOBBtn": {
+		"ANDROID": "xpath=//*[@text and ./parent::*[@class='android.view.ViewGroup' and ./parent::*[./parent::*[@class='android.widget.ScrollView']]] and (./preceding-sibling::* | ./following-sibling::*)[@class='android.widget.ImageView']]"
+	},
+	"miscellaneousBtn": {
+		"ANDROID": "xpath=//*[@text='Miscellaneous']"
+	},
+	"doctorRelatedIssuesBtn": {
+		"ANDROID": "xpath=//*[@text='Doctor Related Issues']"
+	},
+	"doctorHadLeftEarlyBtn": {
+		"ANDROID": "xpath=//*[@text='Doctor had left early?']"
+	},
+	"problemWithTheDoctorBtn": {
+		"ANDROID": "xpath=//*[@text='Problem with the Doctor?']"
+	},
+	"eddAndLMPBtn": {
+		"ANDROID": "xpath=//*[@text='EDD & LMP']"
+	},
+	"howIsEDDCalculatedBtn": {
+		"ANDROID": "xpath=//*[@text='How is EDD calculated?']"
+	},
+	"howToChangeLMPBtn": {
+		"ANDROID": "xpath=//*[@text='How to change LMP?']"
+	},
+	"myBabysAgeInTheReportIsDiffBtn": {
+		"ANDROID": "xpath=(//*[@class='android.view.ViewGroup' and ./parent::*[@class='android.widget.ScrollView']]/*/*[@text and ./parent::*[@class='android.view.ViewGroup'] and (./preceding-sibling::* | ./following-sibling::*)[@class='android.widget.ImageView']])[3]"
+	},
+	"whatIsEDDBtn": {
+		"ANDROID": "xpath=//*[@text='What is EDD?']"
+	},
+	"whatIsLMPBtn": {
+		"ANDROID": "xpath=//*[@text='What is LMP?']"
+	},
+	"feedbackBtn": {
+		"ANDROID": "xpath=//*[@text='Feedback']"
+	},
+	"getYourFeedbackBtn": {
+		"ANDROID": "xpath=//*[@text='Give your feedback']"
+	},
+	"otherServicesBtn": {
+		"ANDROID": "xpath=//*[@text='Other Services']"
+	},
+	"photographyBtn": {
+		"ANDROID": "xpath=//*[@text='Photography']"
+	},
+	"stemCellBankingBtn": {
+		"ANDROID": "xpath=//*[@text='Stem Cell Banking']"
+	},
+	"gkValeBtn": {
+		"ANDROID": "xpath=//*[@text='GK Vale']"
+	},
+	"cryonineServicesBtn": {
+		"ANDROID": "xpath=//*[@text='Cryonine Services']"
+	},
+	"paymentRelatedServicesBtn": {
+		"ANDROID": "xpath=//*[@text='Payment Related Issues']"
+	},
+	"howToResolvePaymentRelatedIssuesBtn": {
+		"ANDROID": "xpath=//*[@text='How to resolve the payment related issues?']"
+	},
+	"canIPayOnlineUsingVouchersBtn": {
+		"ANDROID": "xpath=//*[@text='Can I pay online using vouchers?']"
+	},
+	"iCantFindInvoiceForMyPaymentMadeOnlineBtn": {
+		"ANDROID": "xpath=(//*[@class='android.view.ViewGroup' and ./parent::*[@class='android.widget.ScrollView']]/*/*[@text and ./parent::*[@class='android.view.ViewGroup'] and (./preceding-sibling::* | ./following-sibling::*)[@class='android.widget.ImageView']])[2]"
+	},
+	"paymentSuccessfulButApptNotBookedBtn": {
+		"ANDROID": "xpath=//*[@text='Payment Successful but appointment not booked?']"
+	},
+	"paymentFailedButMoneyGotDeductedBtn": {
+		"ANDROID": "xpath=//*[@text='Payment failed but money got deducted?']"
+	},
+	"selectPayAtHospitalBtn": {
+		"ANDROID": "xpath=//*[@text='Selected pay at Hospital?']"
+	},
+	"wronglyChargedCancellationFeesBtn": {
+		"ANDROID": "xpath=//*[@text='Wrongly charged cancellation fees?']"
+	},
+	"aboutTxt": {
+		"ANDROID": "xpath=//*[@text='About']"
+	}
+}
