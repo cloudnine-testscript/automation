@@ -29,28 +29,4 @@ public class Scenarios extends SupportTest {
 		ap.inviteFriendsAndFamily();
 		logger.debug(this.getTestEndInfoMessage("Invite Friends And Family End"));
 	}
-	
-	@Test(enabled = false, priority = 4)
-	public void tc_BookALabTestLAB() throws Exception {
-		logger.debug(this.getTestStartInfoMessage("Book A Lab Test -> LAB Start"));
-		lp.login();
-		hp.bookALabTestLAB();
-		logger.debug(this.getTestEndInfoMessage("Book A Lab Test -> LAB End"));
-	}
-	
-	@Test(enabled = false, priority = 4)
-	public void tc_BookALabTestXray() throws Exception {
-		logger.debug(this.getTestStartInfoMessage("Book A Lab Test -> Xray Start"));
-		lp.login();
-		hp.bookALabTestXray();
-		logger.debug(this.getTestEndInfoMessage("Book A Lab Test -> Xray End"));
-	}
-	
-	@Test(enabled = false, priority = 4)
-	public void tc_BookAScan() throws Exception {
-		logger.debug(this.getTestStartInfoMessage("Book A Scan Start"));
-		lp.login();
-		hp.bookAScan();
-		logger.debug(this.getTestEndInfoMessage("Book A Scan End"));
-	}
 }
