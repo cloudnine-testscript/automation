@@ -3,7 +3,7 @@ package core.tests;
 import org.testng.annotations.Test;
 
 public class Package extends SupportTest {
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_HRBRSignaturePackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -11,7 +11,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}	
 	
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_HRBRLuxuryPackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -19,7 +19,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_BloreMalleshwaramSignaturePackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -27,7 +27,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_BloreMalleshwaramLuxuryPackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -35,7 +35,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_BloreJayanagarSignaturePackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -43,7 +43,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_BloreJayanagarLuxuryPackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -51,7 +51,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_BloreWhitefieldSignaturePackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -67,7 +67,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_BloreOARSignaturePackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -75,7 +75,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_BloreOARLuxuryPackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -83,7 +83,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_BloreBellandurSignaturePackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -91,7 +91,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_MumbaiMaladSignaturePackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -99,7 +99,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_MumbaiMaladLuxuryPackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -107,7 +107,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_MumbaiVashiSuitePackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -115,7 +115,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_MumbaiVashiDeluxePackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -147,7 +147,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_PuneKalyaniNagarLuxuryPackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -155,7 +155,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void tc_Packge_GurgaonSector47SignaturePackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -163,11 +163,19 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	/*@Test(enabled = true, priority = 4)
-	public void tc_Packge_GurgaonSector47LuxuryPackage() throws Exception {
+	@Test(enabled = false, priority = 4)
+	public void tc_Packge_ChennaiTNagarSignatureSuitPackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
-		hp.gurgaonSector47LuxuryPckg();
+		hp.chennaiTNagarSignatureSuitPckg();
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
-	}*/
+	}
+	
+	@Test(enabled = false, priority = 4)
+	public void tc_Packge_ChennaiTNagarLuxurySingleRoomPackage() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
+		lp.login();
+		hp.chennaiTNagarLuxurySingleRoomPckg();
+		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
+	}
 }

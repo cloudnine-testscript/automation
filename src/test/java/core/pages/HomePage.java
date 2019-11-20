@@ -329,6 +329,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		///Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("sapnaDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -342,6 +346,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("sapnaDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -361,6 +369,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("prakashKiniDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -380,6 +392,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("prakashKiniDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -399,6 +415,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("prakashKiniDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -418,6 +438,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("prakashKiniDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -437,6 +461,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("meetaChawhanDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -456,6 +484,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("meetaChawhanDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -475,6 +507,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("praveenaShenoiDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -494,6 +530,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("praveenaShenoiDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -513,6 +553,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("shefaliTyagiDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -532,6 +576,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("meghanaSarvaiyaDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -551,6 +599,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("meghanaSarvaiyaDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -570,6 +622,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("shaliniVarmaDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -589,6 +645,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("shaliniVarmaDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -608,6 +668,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("manjariKulkarniDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -627,6 +691,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("manjariKulkarniDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -646,6 +714,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("madhuJunejaDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -665,6 +737,10 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("madhuJunejaDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 
@@ -684,25 +760,56 @@ public class HomePage extends FullPage {
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("preetyAggarwalDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
-
-	public void gurgaonSector47LuxuryPckg() throws Exception {
+	
+	public void chennaiTNagarSignatureSuitPckg() throws Exception {
 		goTillPackage();
 		//Assert.assertEquals("HRBR/Kamanahalli", getControl("hrbrKamanahalliTxt").getText());
 		getControl("changeLocationBtn").click();
 		//Assert.assertEquals("Select your City", getControl("selectYourCityTxt").getText());
-		getControl("selectCityGurgaonBtn").click();
+		getControl("selectCityChennaiBtn").click();
 		//Assert.assertEquals("Select location ", getControl("selectYourLocationTxt").getText());
-		getControl("selectLocSector47Btn").click();
+		getControl("selectLocTNagarBtn").click();
 		//Assert.assertEquals("Sector 47", getControl("sector47Txt").getText());
-		getControl("luxuryPackageBtn").click();
-		//Assert.assertEquals("Luxury package", getControl("luxuryPackageTxt").getText());
+		getControl("signatureSuitPackageBtn").click();
+		//Assert.assertEquals("Signature package", getControl("signaturePackageTxt").getText());
 		getControl("proceedBookingBtn").click();
 		//Assert.assertEquals("CANCEL", getControl("calendarCancelBtn").getText());
 		getControl("goAheadBtn").click();
 		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
 		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("kanimozhiDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
+		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
+	}
+	
+	public void chennaiTNagarLuxurySingleRoomPckg() throws Exception {
+		goTillPackage();
+		//Assert.assertEquals("HRBR/Kamanahalli", getControl("hrbrKamanahalliTxt").getText());
+		getControl("changeLocationBtn").click();
+		//Assert.assertEquals("Select your City", getControl("selectYourCityTxt").getText());
+		getControl("selectCityChennaiBtn").click();
+		//Assert.assertEquals("Select location ", getControl("selectYourLocationTxt").getText());
+		getControl("selectLocTNagarBtn").click();
+		//Assert.assertEquals("Sector 47", getControl("sector47Txt").getText());
+		getControl("luxuryRoomPackageBtn").click();
+		//Assert.assertEquals("Signature package", getControl("signaturePackageTxt").getText());
+		getControl("proceedBookingBtn").click();
+		//Assert.assertEquals("CANCEL", getControl("calendarCancelBtn").getText());
+		getControl("goAheadBtn").click();
+		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
+		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("kanimozhiDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 	

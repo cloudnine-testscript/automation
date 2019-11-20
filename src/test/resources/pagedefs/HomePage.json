@@ -251,6 +251,39 @@
 	"henaBhagdeDocCard": {
 		"ANDROID": "xpath=//*[@text='Dr. Hena Bhagde']"
 	},
+	"sapnaDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. N Sapna Lulla']"
+	},
+	"prakashKiniDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. Prakash Kini']"
+	},
+	"meetaChawhanDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. Meeta Chawhan']"
+	},
+	"praveenaShenoiDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. Praveena Shenoi']"
+	},
+	"shefaliTyagiDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. Shefali Tyagi']"
+	},
+	"meghanaSarvaiyaDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. Meghana D Sarvaiya']"
+	},
+	"shaliniVarmaDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. Shalini Varma']"
+	},
+	"manjariKulkarniDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. Manjiri Kulkarni']"
+	},
+	"madhuJunejaDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. Madhu Juneja']"
+	},
+	"preetyAggarwalDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. Preety Aggarwal']"
+	},
+	"kanimozhiDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. N S Kanimozhi']"
+	},
 	"searchedDocContinueBtn": {
 		"ANDROID": "xpath=//*[@text='CONTINUE']"
 	},
@@ -406,6 +439,12 @@
 	},
 	"signaturePackageBtn": {
 		"ANDROID": "xpath=//*[contains(@text, 'Signature')]"
+	},
+	"signatureSuitPackageBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'Signature suit')]"
+	},
+	"luxuryRoomPackageBtn": {
+		"ANDROID": "xpath=//*[contains(@text, 'Luxury(Single)')]"
 	},
 	"signaturePackageTxt": {
 		"ANDROID": "xpath=//*[@text='Signature package']"
