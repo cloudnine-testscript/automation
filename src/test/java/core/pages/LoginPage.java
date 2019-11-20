@@ -18,7 +18,7 @@ public class LoginPage extends FullPage {
 	 */
 	/*@Step("Loging to the app")*/
 	public void login() throws Exception {
-		Assert.assertEquals("Find all your needs in one place ", getControl("findAllYourNeedsInOnePlaceTxt").getText());
+		Assert.assertEquals("Find all your needs in one place", getControl("findAllYourNeedsInOnePlaceTxt").getText());
 		getControl("skipTxt").click();
 		Assert.assertEquals("We’re so glad you’re here to experience Cloudnine", getControl("weAreGladYouAreHereTxt").getText());
 		getControl("loginBtn").click();

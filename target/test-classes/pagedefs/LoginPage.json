@@ -6,7 +6,7 @@
 		"ANDROID": "xpath=//*[@text='SKIP '] | //*[contains(@text,'SK')]"
 	},
 	"loginBtn": {
-		"ANDROID": "xpath= //*[contains(@text,'LOG')] | //*[@text='LOGIN / REGISTER'] | //*[@text and ./parent::*[@class='android.view.ViewGroup' and ./parent::*[(./preceding-sibling::* | ./following-sibling::*)[@class='android.view.ViewGroup']]]]"
+		"ANDROID": "xpath= //*[@text='LOGIN / REGISTER'] | //*[contains(@text,'REGISTER')]"
 	},
 	"mobileNoTxt": {
 		"ANDROID": "xpath= //*[contains(@text,'Mob')] |  //*[@contentDescription='InputBox'] "
@@ -27,7 +27,7 @@
 		"ANDROID": "xpath=//*[@resource-id='android:id/button1']"
 	},
 	"findAllYourNeedsInOnePlaceTxt": {
-		"ANDROID": "xpath=//*[@text='Find all your needs in one place ']"
+		"ANDROID": "xpath=//*[@text='Find all your needs in one place']"
 	},
 	"easilyBookYourAppointmentsTxt": {
 		"ANDROID": "xpath=//*[@text='Easily book your Appointments ']"

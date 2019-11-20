@@ -1,6 +1,6 @@
 {	
 	"makeAnApptBtn": {
-		"ANDROID": "xpath= //*[@text='MAKE AN APPOINTMENT '] | (//*[@contentDescription='ViewText' and ./parent::*[./parent::*[(./preceding-sibling::* | ./following-sibling::*)[@class='android.view.View']]]]/*[@text])[1]"
+		"ANDROID": "xpath= //*[@text='MAKE AN APPOINTMENT'] | (//*[@contentDescription='ViewText' and ./parent::*[./parent::*[(./preceding-sibling::* | ./following-sibling::*)[@class='android.view.View']]]]/*[@text])[1]"
 	},
 	"apptConfDoneBtn": {
 		"ANDROID": "xpath= //*[@text='DONE']"
@@ -21,7 +21,7 @@
 		"ANDROID": "xpath=//*[@text='DISMISS']"
 	},
 	"cancelConfYes": {
-		"ANDROID": "xpath=//*[@text='YES']"
+		"ANDROID": "xpath=//*[@text='YES'] | //*[@content-desc='LeftButtonText']"
 	},
 	"cancelYourApptCannotBeUndoneTxt": {
 		"ANDROID": "xpath=//*[@text='Cancelling your appointment cannot be undone. Are you sure you would like to cancel?']"
@@ -48,7 +48,7 @@
 		"ANDROID": "xpath=//*[@text='We have Successfully cancelled your appointment.]"
 	},
 	"cancelConfirmationDoneBtn": {
-		"ANDROID": "xpath=//*[@text='DONE']"
+		"ANDROID": "xpath=//*[@text='DONE'] | //*[@content-desc='ButtonText']"
 	},
 	"doYouWantToContinueTxt": {
 		"ANDROID": "xpath=//*[@text='Do you want to continue consultation with this doctor? ']"
@@ -66,7 +66,7 @@
 		"ANDROID": "xpath=//*[contains(@text, 'Total amount ')]"
 	},
 	"consultationSuccessfullyBookedTxt": {
-		"ANDROID": "xpath=//*[@text='CONSULTATION SUCCESSFULLY BOOKED'] | //*[contains(@text, 'CONSULTATION SUCCESSFULLY BOOKED')]"
+		"ANDROID": "xpath=//*[@text='CONSULTATION SUCCESSFULLY BOOKED'] | //*[contains(@text, 'SUCCESSFULLY BOOKED')]"
 	},
 	"testPregBtn": {
 		"ANDROID": "xpath=//*[@text='Whom is this appointment for?']/following-sibling::android.view.ViewGroup[1]"
@@ -99,7 +99,7 @@
 		"ANDROID": "xpath=//android.widget.TextView[contains(@text, '-2019')]"
 	},
 	"payAtHospitalBtn": {
-		"ANDROID": "xpath=//android.widget.TextView[@text='PAY AT HOSPITAL'] | //*[contains(@text,'PAY AT HOSPITAL')]"
+		"ANDROID": "xpath=//*[@text='PAY AT HOSPITAL'] | //*[contains(@text,'AT HOSPITAL')]"
 	},
 	"apptFailedTxt": {
 		"ANDROID": "xpath=//android.widget.TextView[@text='CONSULTATION BOOKING FAILED']"
@@ -433,6 +433,18 @@
 	},
 	"deluxePackageTxt": {
 		"ANDROID": "xpath=//*[@text='Deluxe package']"
+	},
+	"upcomingEventsBtn": {
+		"ANDROID": "xpath=//*[@text='Upcoming Events']"
+	},
+	"upcomingEventsTxt": {
+		"ANDROID": "xpath=//*[@text='UPCOMING EVENTS']"
+	},
+	"bloreEventCardBtn": {
+		"ANDROID": "xpath=//*[@text='Lamaze Bengaluru 27-Nov-2019']"
+	},
+	"aboutEventTxt": {
+		"ANDROID": "xpath=//*[@text='ABOUT EVENT']"
 	},
 	"termsAndConditionsTxt": {
 		"ANDROID": "xpath=//*[contains(@text, 'Terms & Conditions')]"

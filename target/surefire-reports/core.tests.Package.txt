@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: core.tests.Package
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 20, Errors: 0, Skipped: 0, Time elapsed: 2,411.975 sec <<< FAILURE! - in core.tests.Package
+tc_Packge_BloreBellandurSignaturePackage(core.tests.Package)  Time elapsed: 100.326 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_BloreBellandurSignaturePackage(Package.java:90)
+
+tc_Packge_BloreJayanagarLuxuryPackage(core.tests.Package)  Time elapsed: 98.947 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_BloreJayanagarLuxuryPackage(Package.java:50)
+
+tc_Packge_BloreJayanagarSignaturePackage(core.tests.Package)  Time elapsed: 97.973 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_BloreJayanagarSignaturePackage(Package.java:42)
+
+tc_Packge_BloreMalleshwaramLuxuryPackage(core.tests.Package)  Time elapsed: 97.896 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_BloreMalleshwaramLuxuryPackage(Package.java:34)
+
+tc_Packge_BloreMalleshwaramSignaturePackage(core.tests.Package)  Time elapsed: 97.555 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_BloreMalleshwaramSignaturePackage(Package.java:26)
+
+tc_Packge_BloreOARLuxuryPackage(core.tests.Package)  Time elapsed: 97.616 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_BloreOARLuxuryPackage(Package.java:82)
+
+tc_Packge_BloreOARSignaturePackage(core.tests.Package)  Time elapsed: 95.532 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_BloreOARSignaturePackage(Package.java:74)
+
+tc_Packge_BloreWhitefieldLuxuryPackage(core.tests.Package)  Time elapsed: 95.814 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_BloreWhitefieldLuxuryPackage(Package.java:66)
+
+tc_Packge_BloreWhitefieldSignaturePackage(core.tests.Package)  Time elapsed: 98.422 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_BloreWhitefieldSignaturePackage(Package.java:58)
+
+tc_Packge_GurgaonSector47SignaturePackage(core.tests.Package)  Time elapsed: 96.714 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_GurgaonSector47SignaturePackage(Package.java:162)
+
+tc_Packge_HRBRLuxuryPackage(core.tests.Package)  Time elapsed: 83.273 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_HRBRLuxuryPackage(Package.java:18)
+
+tc_Packge_HRBRSignaturePackage(core.tests.Package)  Time elapsed: 81.93 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_HRBRSignaturePackage(Package.java:10)
+
+tc_Packge_MumbaiMaladLuxuryPackage(core.tests.Package)  Time elapsed: 97.922 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_MumbaiMaladLuxuryPackage(Package.java:106)
+
+tc_Packge_MumbaiMaladSignaturePackage(core.tests.Package)  Time elapsed: 98.95 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_MumbaiMaladSignaturePackage(Package.java:98)
+
+tc_Packge_MumbaiVashiDeluxePackage(core.tests.Package)  Time elapsed: 98.441 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_MumbaiVashiDeluxePackage(Package.java:122)
+
+tc_Packge_MumbaiVashiSuitePackage(core.tests.Package)  Time elapsed: 97.608 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_MumbaiVashiSuitePackage(Package.java:114)
+
+tc_Packge_PuneKalyaniNagarLuxuryPackage(core.tests.Package)  Time elapsed: 97.692 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_PuneKalyaniNagarLuxuryPackage(Package.java:154)
+
+tc_Packge_PuneKalyaniNagarSignaturePackage(core.tests.Package)  Time elapsed: 99.388 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_PuneKalyaniNagarSignaturePackage(Package.java:146)
+
+tc_Packge_PuneShivajiNagarLuxuryPackage(core.tests.Package)  Time elapsed: 99.377 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_PuneShivajiNagarLuxuryPackage(Package.java:138)
+
+tc_Packge_PuneShivajiNagarSignaturePackage(core.tests.Package)  Time elapsed: 99.222 sec  <<< FAILURE!
+java.lang.Exception: Failure in Creating Control => Platform: ANDROID, Page: HomePage, Control Name: payNowBtn, Locator Type: XPATH, Locator Value: //*[contains(@text, 'PAY NOW')]. Exception: Index: 0, Size: 0
+	at core.tests.Package.tc_Packge_PuneShivajiNagarSignaturePackage(Package.java:130)
+

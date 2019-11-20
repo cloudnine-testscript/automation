@@ -4,6 +4,11 @@
 	<test name="Custom_Flows">
 		<classes>
 			<class name="core.tests.Scenarios"/>
+			<class name="core.tests.Booking"/>
+			<class name="core.tests.Records"/>
+			<class name="core.tests.About"/>
+			<class name="core.tests.Events"/>
+			<class name="core.tests.Package"/>
 		</classes>
 	</test>
 </suite>

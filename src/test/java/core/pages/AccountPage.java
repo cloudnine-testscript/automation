@@ -50,11 +50,11 @@ public class AccountPage extends FullPage {
 		Assert.assertEquals("About Us", getControl("aboutCloudnineAboutUsTxt").getText());
 	}
 	
-	public String about_TermsAndConditions() throws Exception {
+	public void about_TermsAndConditions() throws Exception {
 		getControl("accountBtn").click();
 		getControl("aboutBtn").click();
 		getControl("termsAndConditionsBtn").click();
-		return getControl("tAndcTermsAndConditionsTxt").getText();
+		Assert.assertEquals("Terms and Conditions", getControl("tAndcTermsAndConditionsTxt").getText());
 	}
 	
 	/* Account -> Help&Support -> A Guide To It's Our Baby */
