@@ -3,7 +3,7 @@ package core.tests;
 import org.testng.annotations.Test;
 
 public class About extends SupportTest {
-	@Test(enabled = true, priority = 10)
+	@Test(enabled = true, priority = 1)
 	public void tc_About_AboutCloudnine() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("About Cloudnine Start"));
 		lp.login();
@@ -11,7 +11,7 @@ public class About extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("About Cloudnine End"));
 	}
 
-	@Test(enabled = true, priority = 11)
+	@Test(enabled = true, priority = 2)
 	public void tc_AboutTermsAndConditions() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("About Terms & Conditions Start"));
 		lp.login();
