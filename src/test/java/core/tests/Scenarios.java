@@ -5,8 +5,6 @@ import org.testng.asserts.SoftAssert;
 
 
 public class Scenarios extends SupportTest {
-	SoftAssert sfAssert = new SoftAssert();
-
 	@Test(enabled = false, priority = 1/*, description="Invalid Login Scenario with wrong username and password."*/)
 	/*@Severity(SeverityLevel.NORMAL)
 	@Description("Test Description: Login test with valid username and valid password.")
