@@ -39,7 +39,7 @@ public class Booking extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("Check Appointment Failed End"));
 	}
 
-	@Test(enabled = true, priority = 5)
+	@Test(enabled = false, priority = 5)
 	public void tc_CancelAppointment() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("Cancel Appointment Start"));
 		lp.login();
@@ -86,6 +86,14 @@ public class Booking extends SupportTest {
 		logger.debug(this.getTestStartInfoMessage("Book A Scan Start"));
 		lp.login();
 		hp.bookAScan();
+		logger.debug(this.getTestEndInfoMessage("Book A Scan End"));
+	}
+	
+	@Test(enabled = false, priority = 10)
+	public void tc_BookAnAppointmentBump() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Book A Scan Start"));
+		lp.login();
+		hp.bookAnAppointmentBump();
 		logger.debug(this.getTestEndInfoMessage("Book A Scan End"));
 	}
 }

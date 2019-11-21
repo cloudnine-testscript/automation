@@ -1,6 +1,10 @@
 {	
+	
+	"bumpBtn": {
+		"ANDROID": "xpath=(//*[@class='android.view.ViewGroup' and ./parent::*[@class='android.view.ViewGroup' and ./parent::*[@class='android.view.ViewGroup' and ./parent::*[@class='android.view.ViewGroup']]]]/*[@class='android.view.ViewGroup' and ./*[@class='android.widget.ImageView']])[7]"
+	},
 	"makeAnApptBtn": {
-		"ANDROID": "xpath= //*[@text='MAKE AN APPOINTMENT'] | (//*[@contentDescription='ViewText' and ./parent::*[./parent::*[(./preceding-sibling::* | ./following-sibling::*)[@class='android.view.View']]]]/*[@text])[1]"
+		"ANDROID": "xpath= //*[@text='MAKE AN APPOINTMENT'] | //*[@text='MAKE AN APPOINTMENT ']"
 	},
 	"apptConfDoneBtn": {
 		"ANDROID": "xpath= //*[@text='DONE']"

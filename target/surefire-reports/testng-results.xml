@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="10" total="11" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="58442" started-at="2019-11-21T09:17:31Z" finished-at="2019-11-21T09:18:30Z">
+  <suite name="Surefire suite" duration-ms="95238" started-at="2019-11-21T11:54:41Z" finished-at="2019-11-21T11:56:16Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="58442" started-at="2019-11-21T09:17:31Z" finished-at="2019-11-21T09:18:30Z">
-      <class name="core.tests.Login">
-        <test-method status="PASS" signature="runOncePerSuite()[pri:0, instance:core.tests.Login@ae45eb6]" name="runOncePerSuite" is-config="true" duration-ms="156" started-at="2019-11-21T14:47:31Z" finished-at="2019-11-21T14:47:31Z">
+    <test name="Surefire test" duration-ms="95238" started-at="2019-11-21T11:54:41Z" finished-at="2019-11-21T11:56:16Z">
+      <class name="core.tests.Booking">
+        <test-method status="PASS" signature="runOncePerSuite()[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerSuite" is-config="true" duration-ms="163" started-at="2019-11-21T17:24:41Z" finished-at="2019-11-21T17:24:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerSuite -->
-        <test-method status="PASS" signature="runOncePerContext(org.testng.ITestContext)[pri:0, instance:core.tests.Login@ae45eb6]" name="runOncePerContext" is-config="true" duration-ms="25" started-at="2019-11-21T14:47:31Z" finished-at="2019-11-21T14:47:31Z">
+        <test-method status="PASS" signature="runOncePerContext(org.testng.ITestContext)[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerContext" is-config="true" duration-ms="25" started-at="2019-11-21T17:24:41Z" finished-at="2019-11-21T17:24:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5495333e]]>
+                <![CDATA[org.testng.TestRunner@125290e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerContext -->
-        <test-method status="PASS" signature="runOncePerClass(org.testng.ITestContext)[pri:0, instance:core.tests.Login@ae45eb6]" name="runOncePerClass" is-config="true" duration-ms="0" started-at="2019-11-21T14:47:32Z" finished-at="2019-11-21T14:47:32Z">
+        <test-method status="PASS" signature="runOncePerClass(org.testng.ITestContext)[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerClass" is-config="true" duration-ms="1" started-at="2019-11-21T17:24:41Z" finished-at="2019-11-21T17:24:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5495333e]]>
+                <![CDATA[org.testng.TestRunner@125290e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerClass -->
-        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Login@ae45eb6]" name="runOncePerMethod" is-config="true" duration-ms="22170" started-at="2019-11-21T14:47:32Z" finished-at="2019-11-21T14:47:54Z">
+        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerMethod" is-config="true" duration-ms="27230" started-at="2019-11-21T17:24:41Z" finished-at="2019-11-21T17:25:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5495333e]]>
+                <![CDATA[org.testng.TestRunner@125290e5]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void core.tests.Login.tc_LoginWithValidMobileNoAndInvalidPass() throws java.lang.Exception]]>
+                <![CDATA[public void core.tests.Booking.tc_CancelAppointment() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerMethod -->
-        <test-method status="PASS" signature="tc_LoginWithValidMobileNoAndInvalidPass()[pri:1, instance:core.tests.Login@ae45eb6]" name="tc_LoginWithValidMobileNoAndInvalidPass" duration-ms="35980" started-at="2019-11-21T14:47:54Z" finished-at="2019-11-21T14:48:30Z">
+        <test-method status="PASS" signature="tc_CancelAppointment()[pri:5, instance:core.tests.Booking@27efef64]" name="tc_CancelAppointment" duration-ms="67638" started-at="2019-11-21T17:25:08Z" finished-at="2019-11-21T17:26:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_LoginWithValidMobileNoAndInvalidPass -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Login@ae45eb6]" name="tearDown" is-config="true" duration-ms="241" started-at="2019-11-21T14:48:30Z" finished-at="2019-11-21T14:48:30Z">
+        </test-method> <!-- tc_CancelAppointment -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Booking@27efef64]" name="tearDown" is-config="true" duration-ms="321" started-at="2019-11-21T17:26:16Z" finished-at="2019-11-21T17:26:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tc_LoginWithValidMobileNoAndInvalidPass status=SUCCESS method=Login.tc_LoginWithValidMobileNoAndInvalidPass()[pri:1, instance:core.tests.Login@ae45eb6] output={null}]]]>
+                <![CDATA[[TestResult name=tc_CancelAppointment status=SUCCESS method=Booking.tc_CancelAppointment()[pri:5, instance:core.tests.Booking@27efef64] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- core.tests.Login -->
+      </class> <!-- core.tests.Booking -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

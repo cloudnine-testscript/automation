@@ -911,4 +911,28 @@ public class HomePage extends FullPage {
 		getControl("bloreEventCardBtn").click();
 		Assert.assertEquals("ABOUT EVENT", getControl("aboutEventTxt").getText());
 	}
+	
+	public void bookAnAppointmentBump() throws Exception {
+		getControl("bumpBtn").click();
+		getControl("makeAnApptBtn").click();
+		getControl("testPregBtn").click();
+		getControl("selectCityBengaluruBtn").click();
+		getControl("selectLocOARBtn").click();
+		getControl("selectDocTypeGynaecologistBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("modhulikaDocCard").click();
+		Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
+		getControl("consultationBtn").click();
+		Thread.sleep(3000);
+		Assert.assertEquals("This is the earliest availability for a consultation with Dr. Modhulika Bhattacharya", getControl("thisIsTheEarliestAvailabilityForAConsultationtxt").getText());
+		getControl("viewOtherAppointmentsBtn").click();
+		swipeDown(2);
+		Assert.assertEquals("Select a Time Slot", getControl("selectATimeSlotTxt").getText());
+		getControl("slotBtn").click();
+		getControl("afterSlotContinueBtn").click();
+		getControl("payAtHospitalBtn").click();
+		Assert.assertEquals("CONSULTATION SUCCESSFULLY BOOKED", getControl("consultationSuccessfullyBookedTxt").getText());
+		getControl("cancelConfirmationDoneBtn").click();
+	}
 }

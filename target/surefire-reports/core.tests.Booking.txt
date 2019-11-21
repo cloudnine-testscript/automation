@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: core.tests.Login
+Test set: core.tests.Booking
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 59.226 sec - in core.tests.Login
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 96.065 sec - in core.tests.Booking

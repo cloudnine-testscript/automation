@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.tests.Login" hash-for-method="tc_LoginWithValidMobileNoAndInvalidPass">tc_LoginWithValidMobileNoAndInvalidPass</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.tests.Booking" hash-for-method="tc_CancelAppointment">tc_CancelAppointment</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -120,14 +120,14 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">core.tests.Login</span>
+              <span class="class-name">core.tests.Booking</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_LoginWithValidMobileNoAndInvalidPass">
-                  </a> <!-- tc_LoginWithValidMobileNoAndInvalidPass -->
-                  <span class="method-name">tc_LoginWithValidMobileNoAndInvalidPass</span>
+                  <a name="tc_CancelAppointment">
+                  </a> <!-- tc_CancelAppointment -->
+                  <span class="method-name">tc_CancelAppointment</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -143,7 +143,7 @@
 &lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
   &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;core.tests.Login&quot;/&gt;
+      &lt;class name=&quot;core.tests.Booking&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -185,14 +185,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'tc_LoginWithValidMobileNoAndInvalidPass')
-data.setCell(0, 2, 'core.tests.Login')
-data.setCell(0, 3, 35980);
+data.setCell(0, 1, 'tc_CancelAppointment')
+data.setCell(0, 2, 'core.tests.Booking')
+data.setCell(0, 3, 67638);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -207,13 +207,31 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">10 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">core.tests.Login</span>
+              <span class="ignored-class-name">core.tests.Booking</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">tc_LoginWithValidMobileNoAndValidPass</span>
+                <span class="ignored-method-name">tc_BookAnAppointmentUsingRadiologistScansGurgaon</span>
+                <br/>
+                <span class="ignored-method-name">tc_BookAnAppointment</span>
+                <br/>
+                <span class="ignored-method-name">tc_BookAndCancelAppointment</span>
+                <br/>
+                <span class="ignored-method-name">tc_BookAScan</span>
+                <br/>
+                <span class="ignored-method-name">tc_BookALabTestXray</span>
+                <br/>
+                <span class="ignored-method-name">tc_MakeFutureApptAndCancel</span>
+                <br/>
+                <span class="ignored-method-name">tc_CheckAppointmentFailed</span>
+                <br/>
+                <span class="ignored-method-name">tc_BookALabTestLAB</span>
+                <br/>
+                <span class="ignored-method-name">tc_BookAnAppointmentUsingRadiologistScans</span>
+                <br/>
+                <span class="ignored-method-name">tc_BookAnAppointmentBump</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -225,30 +243,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">core.tests.Login</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">core.tests.Booking</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">runOncePerSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
-                <span class="method-name">runOncePerContext(org.testng.TestRunner@5495333e)</span>
-                <span class="method-start">157 ms</span>
+                <span class="method-name">runOncePerContext(org.testng.TestRunner@125290e5)</span>
+                <span class="method-start">163 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
-                <span class="method-name">runOncePerClass(org.testng.TestRunner@5495333e)</span>
-                <span class="method-start">195 ms</span>
+                <span class="method-name">runOncePerClass(org.testng.TestRunner@125290e5)</span>
+                <span class="method-start">197 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">runOncePerMethod(org.testng.TestRunner@5495333e, public void core.tests.Login.tc_LoginWithValidMobileNoAndInvalidPass...)</span>
-                <span class="method-start">206 ms</span>
+                <span class="method-name">runOncePerMethod(org.testng.TestRunner@125290e5, public void core.tests.Booking.tc_CancelAppointment() throws java.la...)</span>
+                <span class="method-start">208 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_LoginWithValidMobileNoAndInvalidPass</span>
-                <span class="method-start">22377 ms</span>
+                <span class="method-name">tc_CancelAppointment</span>
+                <span class="method-start">27439 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=tc_LoginWithValidMobileNoAndInvalidPass status=SUCCESS method=Login.tc_LoginWithVal...)</span>
-                <span class="method-start">58357 ms</span>
+                <span class="method-name">tearDown([TestResult name=tc_CancelAppointment status=SUCCESS method=Booking.tc_CancelAppointment()[pri:5, in...)</span>
+                <span class="method-start">95078 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
