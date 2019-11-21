@@ -59,7 +59,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 7)
+	@Test(enabled = false, priority = 7)
 	public void tc_Packge_BloreWhitefieldLuxuryPackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -123,7 +123,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 15)
+	@Test(enabled = false, priority = 15)
 	public void tc_Packge_PuneShivajiNagarSignaturePackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -131,7 +131,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 16)
+	@Test(enabled = false, priority = 16)
 	public void tc_Packge_PuneShivajiNagarLuxuryPackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -139,7 +139,7 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 	
-	@Test(enabled = true, priority = 17)
+	@Test(enabled = false, priority = 17)
 	public void tc_Packge_PuneKalyaniNagarSignaturePackage() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
@@ -176,6 +176,38 @@ public class Package extends SupportTest {
 		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
 		lp.login();
 		hp.chennaiTNagarLuxurySingleRoomPckg();
+		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
+	}
+	
+	@Test(enabled = true, priority = 22)
+	public void tc_Packge_ChandigarhSignaturePackage() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
+		lp.login();
+		hp.chandigarhSignaturePckg();
+		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
+	}
+	
+	@Test(enabled = true, priority = 23)
+	public void tc_Packge_ChandigarhLuxuryPackage() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
+		lp.login();
+		hp.chandigarhLuxuryPckg();
+		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
+	}
+	
+	@Test(enabled = true, priority = 24)
+	public void tc_Packge_NoidaSector51SignaturePackage() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
+		lp.login();
+		hp.noidaSector51SignaturePckg();
+		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
+	}
+	
+	@Test(enabled = true, priority = 25)
+	public void tc_Packge_NoidaSector51LuxuryPackage() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("HRBR Signature Package Start"));
+		lp.login();
+		hp.noidaSector51LuxuryPckg();
 		logger.debug(this.getTestEndInfoMessage("HRBR Signature Package End"));
 	}
 }

@@ -284,6 +284,12 @@
 	"kanimozhiDocCard": {
 		"ANDROID": "xpath=//*[@text='Dr. N S Kanimozhi']"
 	},
+	"pratibhaSinghalDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. Pratibha Singhal']"
+	},
+	"seemaSharmaDocCard": {
+		"ANDROID": "xpath=//*[@text='Dr. Seema Sharma']"
+	},
 	"searchedDocContinueBtn": {
 		"ANDROID": "xpath=//*[@text='CONTINUE']"
 	},

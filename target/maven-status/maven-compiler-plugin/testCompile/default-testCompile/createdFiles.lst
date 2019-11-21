@@ -1,11 +1,13 @@
 core\tests\Records.class
+core\tests\Account.class
 core\pages\AccountPage.class
+core\tests\Login.class
 core\tests\Package.class
 core\pages\HomePage.class
 core\pages\LoginPage.class
-core\tests\Scenarios.class
 core\tests\SupportTest.class
 core\pages\FullPage.class
 core\tests\Booking.class
 core\tests\Events.class
+core\tests\HelpAndSupport.class
 core\tests\About.class

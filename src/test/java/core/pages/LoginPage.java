@@ -31,7 +31,23 @@ public class LoginPage extends FullPage {
 		Thread.sleep(9000);
 		getControl("nextBtn").click();
 		Assert.assertEquals(" SHOP ", getControl("shopTxt").getText());
-		//return getControl("shopTxt").getText();
+	}
+	
+	public void loginWithInvalidPass() throws Exception {
+		//Assert.assertEquals("Find all your needs in one place", getControl("findAllYourNeedsInOnePlaceTxt").getText());
+		getControl("skipTxt").click();
+		//Assert.assertEquals("We’re so glad you’re here to experience Cloudnine", getControl("weAreGladYouAreHereTxt").getText());
+		getControl("loginBtn").click();
+		//Assert.assertEquals("Enter registered mobile number", getControl("enterRegisteredMobileNumberTxt").getText());
+		getControl("mobileNoTxt").enterText(testData.get("mobileNo"));
+		getControl("nextBtn").click();
+		Thread.sleep(9000);
+		//Assert.assertEquals("Hold on, I am verifying the mobile number. Enter OTP.", getControl("enterOTPTxt").getText());
+		getControl("otpTxt").enterText(testData.get("staticOTP"));
+		Thread.sleep(9000);
+		getControl("nextBtn").click();
+		Assert.assertEquals("OTP Verification Failed", getControl("otpVerificationFailedTxt").getText());
+		getControl("otpVerificationFailedOKBtn").click();
 	}
 
 }

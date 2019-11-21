@@ -17,6 +17,12 @@
 	"nextBtn": {
 		"ANDROID": "xpath= //*[@content-desc='Forward'] | //*[@contentDescription='Forward']"
 	},
+	"otpVerificationFailedTxt": {
+		"ANDROID": "xpath=//*[@resource-id='android:id/alertTitle'] | //*[@text='OTP Verification Failed']"
+	},
+	"otpVerificationFailedOKBtn": {
+		"ANDROID": "xpath=//*[@resource-id='android:id/button1'] | //*[@text='OK']"
+	},
 	"homePageTxt": {
 		"ANDROID": "xpath= //*[@text='MAKE AN APPOINTMENT '] | (//*[@contentDescription='ViewText' and ./parent::*[./parent::*[(./preceding-sibling::* | ./following-sibling::*)[@class='android.view.View']]]]/*[@text])[1]"
 	},

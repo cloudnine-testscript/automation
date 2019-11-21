@@ -1,163 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="18" total="22" passed="4">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="437746" started-at="2019-11-20T08:14:00Z" finished-at="2019-11-20T08:21:17Z">
+  <suite name="Surefire suite" duration-ms="58442" started-at="2019-11-21T09:17:31Z" finished-at="2019-11-21T09:18:30Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="437746" started-at="2019-11-20T08:14:00Z" finished-at="2019-11-20T08:21:17Z">
-      <class name="core.tests.Package">
-        <test-method status="PASS" signature="runOncePerSuite()[pri:0, instance:core.tests.Package@27efef64]" name="runOncePerSuite" is-config="true" duration-ms="176" started-at="2019-11-20T13:43:59Z" finished-at="2019-11-20T13:44:00Z">
+    <test name="Surefire test" duration-ms="58442" started-at="2019-11-21T09:17:31Z" finished-at="2019-11-21T09:18:30Z">
+      <class name="core.tests.Login">
+        <test-method status="PASS" signature="runOncePerSuite()[pri:0, instance:core.tests.Login@ae45eb6]" name="runOncePerSuite" is-config="true" duration-ms="156" started-at="2019-11-21T14:47:31Z" finished-at="2019-11-21T14:47:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerSuite -->
-        <test-method status="PASS" signature="runOncePerContext(org.testng.ITestContext)[pri:0, instance:core.tests.Package@27efef64]" name="runOncePerContext" is-config="true" duration-ms="22" started-at="2019-11-20T13:44:00Z" finished-at="2019-11-20T13:44:00Z">
+        <test-method status="PASS" signature="runOncePerContext(org.testng.ITestContext)[pri:0, instance:core.tests.Login@ae45eb6]" name="runOncePerContext" is-config="true" duration-ms="25" started-at="2019-11-21T14:47:31Z" finished-at="2019-11-21T14:47:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3e6f3f28]]>
+                <![CDATA[org.testng.TestRunner@5495333e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerContext -->
-        <test-method status="PASS" signature="runOncePerClass(org.testng.ITestContext)[pri:0, instance:core.tests.Package@27efef64]" name="runOncePerClass" is-config="true" duration-ms="0" started-at="2019-11-20T13:44:00Z" finished-at="2019-11-20T13:44:00Z">
+        <test-method status="PASS" signature="runOncePerClass(org.testng.ITestContext)[pri:0, instance:core.tests.Login@ae45eb6]" name="runOncePerClass" is-config="true" duration-ms="0" started-at="2019-11-21T14:47:32Z" finished-at="2019-11-21T14:47:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3e6f3f28]]>
+                <![CDATA[org.testng.TestRunner@5495333e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerClass -->
-        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Package@27efef64]" name="runOncePerMethod" is-config="true" duration-ms="23436" started-at="2019-11-20T13:44:00Z" finished-at="2019-11-20T13:44:23Z">
+        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Login@ae45eb6]" name="runOncePerMethod" is-config="true" duration-ms="22170" started-at="2019-11-21T14:47:32Z" finished-at="2019-11-21T14:47:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3e6f3f28]]>
+                <![CDATA[org.testng.TestRunner@5495333e]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void core.tests.Package.tc_Packge_BloreWhitefieldLuxuryPackage() throws java.lang.Exception]]>
+                <![CDATA[public void core.tests.Login.tc_LoginWithValidMobileNoAndInvalidPass() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerMethod -->
-        <test-method status="PASS" signature="tc_Packge_BloreWhitefieldLuxuryPackage()[pri:4, instance:core.tests.Package@27efef64]" name="tc_Packge_BloreWhitefieldLuxuryPackage" duration-ms="85943" started-at="2019-11-20T13:44:23Z" finished-at="2019-11-20T13:45:49Z">
+        <test-method status="PASS" signature="tc_LoginWithValidMobileNoAndInvalidPass()[pri:1, instance:core.tests.Login@ae45eb6]" name="tc_LoginWithValidMobileNoAndInvalidPass" duration-ms="35980" started-at="2019-11-21T14:47:54Z" finished-at="2019-11-21T14:48:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_Packge_BloreWhitefieldLuxuryPackage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Package@27efef64]" name="tearDown" is-config="true" duration-ms="275" started-at="2019-11-20T13:45:49Z" finished-at="2019-11-20T13:45:49Z">
+        </test-method> <!-- tc_LoginWithValidMobileNoAndInvalidPass -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Login@ae45eb6]" name="tearDown" is-config="true" duration-ms="241" started-at="2019-11-21T14:48:30Z" finished-at="2019-11-21T14:48:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tc_Packge_BloreWhitefieldLuxuryPackage status=SUCCESS method=Package.tc_Packge_BloreWhitefieldLuxuryPackage()[pri:4, instance:core.tests.Package@27efef64] output={null}]]]>
+                <![CDATA[[TestResult name=tc_LoginWithValidMobileNoAndInvalidPass status=SUCCESS method=Login.tc_LoginWithValidMobileNoAndInvalidPass()[pri:1, instance:core.tests.Login@ae45eb6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Package@27efef64]" name="runOncePerMethod" is-config="true" duration-ms="22476" started-at="2019-11-20T13:45:49Z" finished-at="2019-11-20T13:46:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@3e6f3f28]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void core.tests.Package.tc_Packge_PuneKalyaniNagarSignaturePackage() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runOncePerMethod -->
-        <test-method status="PASS" signature="tc_Packge_PuneKalyaniNagarSignaturePackage()[pri:4, instance:core.tests.Package@27efef64]" name="tc_Packge_PuneKalyaniNagarSignaturePackage" duration-ms="88326" started-at="2019-11-20T13:46:12Z" finished-at="2019-11-20T13:47:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_Packge_PuneKalyaniNagarSignaturePackage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Package@27efef64]" name="tearDown" is-config="true" duration-ms="294" started-at="2019-11-20T13:47:40Z" finished-at="2019-11-20T13:47:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=tc_Packge_PuneKalyaniNagarSignaturePackage status=SUCCESS method=Package.tc_Packge_PuneKalyaniNagarSignaturePackage()[pri:4, instance:core.tests.Package@27efef64] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Package@27efef64]" name="runOncePerMethod" is-config="true" duration-ms="22474" started-at="2019-11-20T13:47:40Z" finished-at="2019-11-20T13:48:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@3e6f3f28]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void core.tests.Package.tc_Packge_PuneShivajiNagarLuxuryPackage() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runOncePerMethod -->
-        <test-method status="PASS" signature="tc_Packge_PuneShivajiNagarLuxuryPackage()[pri:4, instance:core.tests.Package@27efef64]" name="tc_Packge_PuneShivajiNagarLuxuryPackage" duration-ms="81674" started-at="2019-11-20T13:48:03Z" finished-at="2019-11-20T13:49:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_Packge_PuneShivajiNagarLuxuryPackage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Package@27efef64]" name="tearDown" is-config="true" duration-ms="255" started-at="2019-11-20T13:49:24Z" finished-at="2019-11-20T13:49:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=tc_Packge_PuneShivajiNagarLuxuryPackage status=SUCCESS method=Package.tc_Packge_PuneShivajiNagarLuxuryPackage()[pri:4, instance:core.tests.Package@27efef64] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Package@27efef64]" name="runOncePerMethod" is-config="true" duration-ms="22785" started-at="2019-11-20T13:49:25Z" finished-at="2019-11-20T13:49:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@3e6f3f28]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void core.tests.Package.tc_Packge_PuneShivajiNagarSignaturePackage() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runOncePerMethod -->
-        <test-method status="PASS" signature="tc_Packge_PuneShivajiNagarSignaturePackage()[pri:4, instance:core.tests.Package@27efef64]" name="tc_Packge_PuneShivajiNagarSignaturePackage" duration-ms="89457" started-at="2019-11-20T13:49:48Z" finished-at="2019-11-20T13:51:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc_Packge_PuneShivajiNagarSignaturePackage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Package@27efef64]" name="tearDown" is-config="true" duration-ms="299" started-at="2019-11-20T13:51:17Z" finished-at="2019-11-20T13:51:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=tc_Packge_PuneShivajiNagarSignaturePackage status=SUCCESS method=Package.tc_Packge_PuneShivajiNagarSignaturePackage()[pri:4, instance:core.tests.Package@27efef64] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- core.tests.Package -->
+      </class> <!-- core.tests.Login -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

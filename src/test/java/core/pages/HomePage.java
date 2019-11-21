@@ -813,6 +813,98 @@ public class HomePage extends FullPage {
 		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
 	}
 	
+	public void chandigarhSignaturePckg() throws Exception {
+		goTillPackage();
+		//Assert.assertEquals("HRBR/Kamanahalli", getControl("hrbrKamanahalliTxt").getText());
+		getControl("changeLocationBtn").click();
+		//Assert.assertEquals("Select your City", getControl("selectYourCityTxt").getText());
+		getControl("selectCityChandigarhBtn").click();
+		//Assert.assertEquals("Select location ", getControl("selectYourLocationTxt").getText());
+		getControl("selectLocChandigarhBtn").click();
+		//Assert.assertEquals("Sector 47", getControl("sector47Txt").getText());
+		getControl("signaturePackageBtn").click();
+		//Assert.assertEquals("Signature package", getControl("signaturePackageTxt").getText());
+		getControl("proceedBookingBtn").click();
+		//Assert.assertEquals("CANCEL", getControl("calendarCancelBtn").getText());
+		getControl("goAheadBtn").click();
+		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
+		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("seemaSharmaDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
+		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
+	}
+	
+	public void chandigarhLuxuryPckg() throws Exception {
+		goTillPackage();
+		//Assert.assertEquals("HRBR/Kamanahalli", getControl("hrbrKamanahalliTxt").getText());
+		getControl("changeLocationBtn").click();
+		//Assert.assertEquals("Select your City", getControl("selectYourCityTxt").getText());
+		getControl("selectCityChandigarhBtn").click();
+		//Assert.assertEquals("Select location ", getControl("selectYourLocationTxt").getText());
+		getControl("selectLocChandigarhBtn").click();
+		//Assert.assertEquals("Sector 47", getControl("sector47Txt").getText());
+		getControl("luxuryPackageBtn").click();
+		//Assert.assertEquals("Signature package", getControl("signaturePackageTxt").getText());
+		getControl("proceedBookingBtn").click();
+		//Assert.assertEquals("CANCEL", getControl("calendarCancelBtn").getText());
+		getControl("goAheadBtn").click();
+		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
+		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("seemaSharmaDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
+		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
+	}
+	
+	public void noidaSector51SignaturePckg() throws Exception {
+		goTillPackage();
+		//Assert.assertEquals("HRBR/Kamanahalli", getControl("hrbrKamanahalliTxt").getText());
+		getControl("changeLocationBtn").click();
+		//Assert.assertEquals("Select your City", getControl("selectYourCityTxt").getText());
+		getControl("selectCityNoidaBtn").click();
+		//Assert.assertEquals("Select location ", getControl("selectYourLocationTxt").getText());
+		getControl("selectLocSector51Btn").click();
+		//Assert.assertEquals("Sector 47", getControl("sector47Txt").getText());
+		getControl("signaturePackageBtn").click();
+		//Assert.assertEquals("Signature package", getControl("signaturePackageTxt").getText());
+		getControl("proceedBookingBtn").click();
+		//Assert.assertEquals("CANCEL", getControl("calendarCancelBtn").getText());
+		getControl("goAheadBtn").click();
+		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
+		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("pratibhaSinghalDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
+		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
+	}
+	
+	public void noidaSector51LuxuryPckg() throws Exception {
+		goTillPackage();
+		//Assert.assertEquals("HRBR/Kamanahalli", getControl("hrbrKamanahalliTxt").getText());
+		getControl("changeLocationBtn").click();
+		//Assert.assertEquals("Select your City", getControl("selectYourCityTxt").getText());
+		getControl("selectCityNoidaBtn").click();
+		//Assert.assertEquals("Select location ", getControl("selectYourLocationTxt").getText());
+		getControl("selectLocSector51Btn").click();
+		//Assert.assertEquals("Sector 47", getControl("sector47Txt").getText());
+		getControl("luxuryPackageBtn").click();
+		//Assert.assertEquals("Signature package", getControl("signaturePackageTxt").getText());
+		getControl("proceedBookingBtn").click();
+		//Assert.assertEquals("CANCEL", getControl("calendarCancelBtn").getText());
+		getControl("goAheadBtn").click();
+		//Assert.assertEquals("Bed Booking", getControl("bedBookingTxt").getText());
+		getControl("pckgTestPregBtn").click();
+		getControl("searchBox").enterText(testData.get("searchInput"));
+		getControl("pratibhaSinghalDocCard").click();
+		//Thread.sleep(2000);
+		getControl("searchedDocContinueBtn").click();
+		Assert.assertEquals("PAY NOW", getControl("payNowBtn").getText());
+	}
+	
 	public void bangaloreEvent() throws Exception {
 		goTillUpcomingEvents();
 		Assert.assertEquals("UPCOMING EVENTS", getControl("upcomingEventsTxt").getText());
