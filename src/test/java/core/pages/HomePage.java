@@ -940,7 +940,7 @@ public class HomePage extends FullPage {
 		getControl("bumpBtn").click();
 		getControl("askAQueryBtn").click();
 		getControl("enterYourQuerytxt").enterText(testData.get("searchInput"));
-		//getControl("nextBtn").click();
+		getControl("nextBtn").click();
 		//Thread.sleep(2000);
 		Assert.assertEquals("Thank You", getControl("thankYouToastMessageTxt").getText());
 	}

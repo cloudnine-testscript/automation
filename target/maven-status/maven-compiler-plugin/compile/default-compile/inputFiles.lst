@@ -1,37 +1,37 @@
-E:\Sample Framework\src\main\java\agent\internal\MobileAgent.java
-E:\Sample Framework\src\main\java\control\Control.java
-E:\Sample Framework\src\main\java\utils\DateFormatFileAppender.java
-E:\Sample Framework\src\main\java\enums\IdentifyBy.java
-E:\Sample Framework\src\main\java\agent\internal\AndroidAppAgent.java
-E:\Sample Framework\src\main\java\enums\Direction.java
-E:\Sample Framework\src\main\java\enums\MobileView.java
-E:\Sample Framework\src\main\java\pagedef\Identifier.java
-E:\Sample Framework\src\main\java\agent\internal\DesktopWebAgent.java
-E:\Sample Framework\src\main\java\control\IControl.java
-E:\Sample Framework\src\main\java\agent\internal\WebAgent.java
-E:\Sample Framework\src\main\java\enums\Platform.java
-E:\Sample Framework\src\main\java\agent\internal\AndroidWebAgent.java
-E:\Sample Framework\src\main\java\agent\internal\AndroidAgent.java
-E:\Sample Framework\src\main\java\page\Page.java
-E:\Sample Framework\src\main\java\agent\internal\IWindowActions.java
-E:\Sample Framework\src\main\java\agent\internal\WebAgentFactory.java
-E:\Sample Framework\src\main\java\agent\internal\IOSAgent.java
-E:\Sample Framework\src\main\java\utils\JsonReader.java
-E:\Sample Framework\src\main\java\agent\internal\MobileAgentFactory.java
-E:\Sample Framework\src\main\java\agent\internal\IDriverActions.java
-E:\Sample Framework\src\main\java\agent\internal\IOSAppAgent.java
-E:\Sample Framework\src\main\java\pagedef\PageDef.java
-E:\Sample Framework\src\main\java\agent\AgentFactory.java
-E:\Sample Framework\src\main\java\control\MobileControl.java
-E:\Sample Framework\src\main\java\enums\IdentificationPlatform.java
-E:\Sample Framework\src\main\java\pagedef\IPage.java
-E:\Sample Framework\src\main\java\utils\IniReader.java
-E:\Sample Framework\src\main\java\central\ObjectRepository.java
-E:\Sample Framework\src\main\java\utils\JavaUtils.java
-E:\Sample Framework\src\main\java\enums\ConfigType.java
-E:\Sample Framework\src\main\java\agent\internal\IOSWebAgent.java
-E:\Sample Framework\src\main\java\enums\DesktopBrowser.java
-E:\Sample Framework\src\main\java\central\Configuration.java
-E:\Sample Framework\src\main\java\control\WebControl.java
-E:\Sample Framework\src\main\java\central\AppachhiCentral.java
-E:\Sample Framework\src\main\java\agent\IAgent.java
+E:\Customer_App\src\main\java\agent\internal\IWindowActions.java
+E:\Customer_App\src\main\java\agent\internal\AndroidWebAgent.java
+E:\Customer_App\src\main\java\agent\internal\MobileAgent.java
+E:\Customer_App\src\main\java\agent\AgentFactory.java
+E:\Customer_App\src\main\java\agent\internal\IDriverActions.java
+E:\Customer_App\src\main\java\utils\JsonReader.java
+E:\Customer_App\src\main\java\enums\DesktopBrowser.java
+E:\Customer_App\src\main\java\page\Page.java
+E:\Customer_App\src\main\java\pagedef\PageDef.java
+E:\Customer_App\src\main\java\pagedef\Identifier.java
+E:\Customer_App\src\main\java\utils\DateFormatFileAppender.java
+E:\Customer_App\src\main\java\agent\internal\DesktopWebAgent.java
+E:\Customer_App\src\main\java\central\ObjectRepository.java
+E:\Customer_App\src\main\java\agent\internal\WebAgent.java
+E:\Customer_App\src\main\java\enums\ConfigType.java
+E:\Customer_App\src\main\java\enums\Direction.java
+E:\Customer_App\src\main\java\control\Control.java
+E:\Customer_App\src\main\java\enums\IdentificationPlatform.java
+E:\Customer_App\src\main\java\agent\internal\WebAgentFactory.java
+E:\Customer_App\src\main\java\agent\IAgent.java
+E:\Customer_App\src\main\java\agent\internal\AndroidAppAgent.java
+E:\Customer_App\src\main\java\agent\internal\IOSAgent.java
+E:\Customer_App\src\main\java\control\IControl.java
+E:\Customer_App\src\main\java\control\WebControl.java
+E:\Customer_App\src\main\java\agent\internal\AndroidAgent.java
+E:\Customer_App\src\main\java\pagedef\IPage.java
+E:\Customer_App\src\main\java\utils\JavaUtils.java
+E:\Customer_App\src\main\java\enums\MobileView.java
+E:\Customer_App\src\main\java\agent\internal\MobileAgentFactory.java
+E:\Customer_App\src\main\java\agent\internal\IOSAppAgent.java
+E:\Customer_App\src\main\java\utils\IniReader.java
+E:\Customer_App\src\main\java\enums\IdentifyBy.java
+E:\Customer_App\src\main\java\enums\Platform.java
+E:\Customer_App\src\main\java\control\MobileControl.java
+E:\Customer_App\src\main\java\agent\internal\IOSWebAgent.java
+E:\Customer_App\src\main\java\central\Configuration.java
+E:\Customer_App\src\main\java\central\AppachhiCentral.java

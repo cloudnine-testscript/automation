@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="core.tests.Booking" time="74.09" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="core.tests.Booking" time="69.798" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="platform" value="ANDROID"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
     <property name="java.vm.version" value="25.181-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="E:\Sample Framework"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Customer_App"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -19,7 +19,7 @@
     <property name="sun.os.patch.level" value=""/>
     <property name="test" value="tests.Booking"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\Sample Framework"/>
+    <property name="user.dir" value="E:\Customer_App"/>
     <property name="java.runtime.version" value="1.8.0_181-b13"/>
     <property name="screenshot_paths" value="screenshots\"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -32,7 +32,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Users\admin\Downloads\Softwares\apache-maven-3.6.2\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;%JAVA_HOME%\bin;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\composer;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\admin\AppData\Local\Android\android-sdk\tools;C:\Users\admin\AppData\Local\Android\android-sdk\platform-tools;C:\Users\admin\Downloads\Softwares\apache-maven-3.6.2\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Local\GitHubDesktop\bin;C:\Users\admin\AppData\Roaming\Composer\vendor\bin;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\Yarn\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;%JAVA_HOME%\bin;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\composer;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\admin\AppData\Local\Android\android-sdk\tools;C:\Users\admin\AppData\Local\Android\android-sdk\platform-tools;C:\Users\admin\Downloads\Softwares\apache-maven-3.6.2\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Local\GitHubDesktop\bin;C:\Users\admin\AppData\Roaming\Composer\vendor\bin;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\Yarn\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;."/>
     <property name="maven.conf" value="C:\Users\admin\Downloads\Softwares\apache-maven-3.6.2\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -51,7 +51,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Ddevice_name=Android -Dplatform_version=7.0 -Dmobile_udid=c1eb8af8 -Dapp_file_path=E:\Sample Framework\src\test\resources\apps\app-arm64-v8a-release-151119.apk -Dappium_url=http://127.0.0.1:4723/wd/hub -Dscreenshot_paths=screenshots\ -Dplatform=ANDROID -Dtest=tests.Booking clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Ddevice_name=Android -Dplatform_version=7.0 -Dmobile_udid=c1eb8af8 -Dapp_file_path=E:\Customer_App\src\test\resources\apps\app-arm64-v8a-release-221119.apk -Dappium_url=http://127.0.0.1:4723/wd/hub -Dscreenshot_paths=screenshots\ -Dplatform=ANDROID -Dtest=tests.Booking clean test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -63,7 +63,7 @@
     <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="C:\Users\admin\Downloads\Softwares\apache-maven-3.6.2\bin\.."/>
-    <property name="app_file_path" value="E:\Sample Framework\src\test\resources\apps\app-arm64-v8a-release-151119.apk"/>
+    <property name="app_file_path" value="E:\Customer_App\src\test\resources\apps\app-arm64-v8a-release-221119.apk"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -72,5 +72,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="tc_AskAQueryBump" classname="core.tests.Booking" time="50.148"/>
+  <testcase name="tc_AskAQueryBump" classname="core.tests.Booking" time="52.114"/>
 </testsuite>
