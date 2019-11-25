@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="10" total="11" passed="1">
+<testng-results skipped="0" failed="0" ignored="11" total="12" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="95238" started-at="2019-11-21T11:54:41Z" finished-at="2019-11-21T11:56:16Z">
+  <suite name="Surefire suite" duration-ms="73174" started-at="2019-11-22T08:01:50Z" finished-at="2019-11-22T08:03:04Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="95238" started-at="2019-11-21T11:54:41Z" finished-at="2019-11-21T11:56:16Z">
+    <test name="Surefire test" duration-ms="73174" started-at="2019-11-22T08:01:50Z" finished-at="2019-11-22T08:03:04Z">
       <class name="core.tests.Booking">
-        <test-method status="PASS" signature="runOncePerSuite()[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerSuite" is-config="true" duration-ms="163" started-at="2019-11-21T17:24:41Z" finished-at="2019-11-21T17:24:41Z">
+        <test-method status="PASS" signature="runOncePerSuite()[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerSuite" is-config="true" duration-ms="157" started-at="2019-11-22T13:31:50Z" finished-at="2019-11-22T13:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerSuite -->
-        <test-method status="PASS" signature="runOncePerContext(org.testng.ITestContext)[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerContext" is-config="true" duration-ms="25" started-at="2019-11-21T17:24:41Z" finished-at="2019-11-21T17:24:41Z">
+        <test-method status="PASS" signature="runOncePerContext(org.testng.ITestContext)[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerContext" is-config="true" duration-ms="29" started-at="2019-11-22T13:31:50Z" finished-at="2019-11-22T13:31:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@125290e5]]>
+                <![CDATA[org.testng.TestRunner@2a225dd7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerContext -->
-        <test-method status="PASS" signature="runOncePerClass(org.testng.ITestContext)[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerClass" is-config="true" duration-ms="1" started-at="2019-11-21T17:24:41Z" finished-at="2019-11-21T17:24:41Z">
+        <test-method status="PASS" signature="runOncePerClass(org.testng.ITestContext)[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerClass" is-config="true" duration-ms="1" started-at="2019-11-22T13:31:50Z" finished-at="2019-11-22T13:31:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@125290e5]]>
+                <![CDATA[org.testng.TestRunner@2a225dd7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerClass -->
-        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerMethod" is-config="true" duration-ms="27230" started-at="2019-11-21T17:24:41Z" finished-at="2019-11-21T17:25:08Z">
+        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerMethod" is-config="true" duration-ms="22691" started-at="2019-11-22T13:31:50Z" finished-at="2019-11-22T13:32:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@125290e5]]>
+                <![CDATA[org.testng.TestRunner@2a225dd7]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void core.tests.Booking.tc_CancelAppointment() throws java.lang.Exception]]>
+                <![CDATA[public void core.tests.Booking.tc_AskAQueryBump() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerMethod -->
-        <test-method status="PASS" signature="tc_CancelAppointment()[pri:5, instance:core.tests.Booking@27efef64]" name="tc_CancelAppointment" duration-ms="67638" started-at="2019-11-21T17:25:08Z" finished-at="2019-11-21T17:26:16Z">
+        <test-method status="PASS" signature="tc_AskAQueryBump()[pri:12, instance:core.tests.Booking@27efef64]" name="tc_AskAQueryBump" duration-ms="50160" started-at="2019-11-22T13:32:13Z" finished-at="2019-11-22T13:33:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_CancelAppointment -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Booking@27efef64]" name="tearDown" is-config="true" duration-ms="321" started-at="2019-11-21T17:26:16Z" finished-at="2019-11-21T17:26:16Z">
+        </test-method> <!-- tc_AskAQueryBump -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Booking@27efef64]" name="tearDown" is-config="true" duration-ms="269" started-at="2019-11-22T13:33:03Z" finished-at="2019-11-22T13:33:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tc_CancelAppointment status=SUCCESS method=Booking.tc_CancelAppointment()[pri:5, instance:core.tests.Booking@27efef64] output={null}]]]>
+                <![CDATA[[TestResult name=tc_AskAQueryBump status=SUCCESS method=Booking.tc_AskAQueryBump()[pri:12, instance:core.tests.Booking@27efef64] output={null}]]]>
               </value>
             </param>
           </params>

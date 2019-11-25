@@ -89,11 +89,19 @@ public class Booking extends SupportTest {
 		logger.debug(this.getTestEndInfoMessage("Book A Scan End"));
 	}
 	
-	@Test(enabled = false, priority = 10)
+	@Test(enabled = false, priority = 11)
 	public void tc_BookAnAppointmentBump() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("Book A Scan Start"));
 		lp.login();
 		hp.bookAnAppointmentBump();
+		logger.debug(this.getTestEndInfoMessage("Book A Scan End"));
+	}
+	
+	@Test(enabled = true, priority = 12)
+	public void tc_AskAQueryBump() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Book A Scan Start"));
+		lp.login();
+		hp.askAQueryBump();
 		logger.debug(this.getTestEndInfoMessage("Book A Scan End"));
 	}
 }

@@ -1,7 +1,15 @@
 {	
-	
 	"bumpBtn": {
 		"ANDROID": "xpath=(//*[@class='android.view.ViewGroup' and ./parent::*[@class='android.view.ViewGroup' and ./parent::*[@class='android.view.ViewGroup' and ./parent::*[@class='android.view.ViewGroup']]]]/*[@class='android.view.ViewGroup' and ./*[@class='android.widget.ImageView']])[7]"
+	},
+	"askAQueryBtn": {
+		"ANDROID": "xpath=//*[@text='ASK A QUERY']"
+	},
+	"enterYourQuerytxt": {
+		"ANDROID": "xpath= //*[@text='Enter your query']"
+	},
+	"thankYouToastMessageTxt": {
+		"ANDROID": "xpath=//*[@text='Thank You']"
 	},
 	"makeAnApptBtn": {
 		"ANDROID": "xpath= //*[@text='MAKE AN APPOINTMENT'] | //*[@text='MAKE AN APPOINTMENT ']"

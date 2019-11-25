@@ -935,4 +935,13 @@ public class HomePage extends FullPage {
 		Assert.assertEquals("CONSULTATION SUCCESSFULLY BOOKED", getControl("consultationSuccessfullyBookedTxt").getText());
 		getControl("cancelConfirmationDoneBtn").click();
 	}
+	
+	public void askAQueryBump() throws Exception {
+		getControl("bumpBtn").click();
+		getControl("askAQueryBtn").click();
+		getControl("enterYourQuerytxt").enterText(testData.get("searchInput"));
+		//getControl("nextBtn").click();
+		//Thread.sleep(2000);
+		Assert.assertEquals("Thank You", getControl("thankYouToastMessageTxt").getText());
+	}
 }
