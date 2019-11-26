@@ -1,70 +1,225 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="11" total="12" passed="1">
+<testng-results skipped="0" failed="0" ignored="36" total="42" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="68860" started-at="2019-11-25T07:27:30Z" finished-at="2019-11-25T07:28:39Z">
+  <suite name="Surefire suite" duration-ms="404743" started-at="2019-11-26T12:11:21Z" finished-at="2019-11-26T12:18:06Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="68860" started-at="2019-11-25T07:27:30Z" finished-at="2019-11-25T07:28:39Z">
-      <class name="core.tests.Booking">
-        <test-method status="PASS" signature="runOncePerSuite()[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerSuite" is-config="true" duration-ms="201" started-at="2019-11-25T12:57:29Z" finished-at="2019-11-25T12:57:30Z">
+    <test name="Surefire test" duration-ms="404743" started-at="2019-11-26T12:11:21Z" finished-at="2019-11-26T12:18:06Z">
+      <class name="core.tests.HelpAndSupport">
+        <test-method status="PASS" signature="runOncePerSuite()[pri:0, instance:core.tests.HelpAndSupport@ae45eb6]" name="runOncePerSuite" is-config="true" duration-ms="215" started-at="2019-11-26T17:41:21Z" finished-at="2019-11-26T17:41:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerSuite -->
-        <test-method status="PASS" signature="runOncePerContext(org.testng.ITestContext)[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerContext" is-config="true" duration-ms="30" started-at="2019-11-25T12:57:30Z" finished-at="2019-11-25T12:57:30Z">
+        <test-method status="PASS" signature="runOncePerContext(org.testng.ITestContext)[pri:0, instance:core.tests.HelpAndSupport@ae45eb6]" name="runOncePerContext" is-config="true" duration-ms="17" started-at="2019-11-26T17:41:21Z" finished-at="2019-11-26T17:41:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@125290e5]]>
+                <![CDATA[org.testng.TestRunner@16b2bb0c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerContext -->
-        <test-method status="PASS" signature="runOncePerClass(org.testng.ITestContext)[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerClass" is-config="true" duration-ms="0" started-at="2019-11-25T12:57:30Z" finished-at="2019-11-25T12:57:30Z">
+        <test-method status="PASS" signature="runOncePerClass(org.testng.ITestContext)[pri:0, instance:core.tests.HelpAndSupport@ae45eb6]" name="runOncePerClass" is-config="true" duration-ms="0" started-at="2019-11-26T17:41:21Z" finished-at="2019-11-26T17:41:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@125290e5]]>
+                <![CDATA[org.testng.TestRunner@16b2bb0c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerClass -->
-        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Booking@27efef64]" name="runOncePerMethod" is-config="true" duration-ms="16421" started-at="2019-11-25T12:57:30Z" finished-at="2019-11-25T12:57:46Z">
+        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.HelpAndSupport@ae45eb6]" name="runOncePerMethod" is-config="true" duration-ms="16794" started-at="2019-11-26T17:41:21Z" finished-at="2019-11-26T17:41:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@125290e5]]>
+                <![CDATA[org.testng.TestRunner@16b2bb0c]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void core.tests.Booking.tc_AskAQueryBump() throws java.lang.Exception]]>
+                <![CDATA[public void core.tests.HelpAndSupport.tc_Account_Help_PRI_CanIPayOnlineUsingVoucher() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOncePerMethod -->
-        <test-method status="PASS" signature="tc_AskAQueryBump()[pri:12, instance:core.tests.Booking@27efef64]" name="tc_AskAQueryBump" duration-ms="52120" started-at="2019-11-25T12:57:46Z" finished-at="2019-11-25T12:58:38Z">
+        <test-method status="PASS" signature="tc_Account_Help_PRI_CanIPayOnlineUsingVoucher()[pri:37, instance:core.tests.HelpAndSupport@ae45eb6]" name="tc_Account_Help_PRI_CanIPayOnlineUsingVoucher" duration-ms="50698" started-at="2019-11-26T17:41:38Z" finished-at="2019-11-26T17:42:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_AskAQueryBump -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Booking@27efef64]" name="tearDown" is-config="true" duration-ms="255" started-at="2019-11-25T12:58:38Z" finished-at="2019-11-25T12:58:39Z">
+        </test-method> <!-- tc_Account_Help_PRI_CanIPayOnlineUsingVoucher -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.HelpAndSupport@ae45eb6]" name="tearDown" is-config="true" duration-ms="286" started-at="2019-11-26T17:42:28Z" finished-at="2019-11-26T17:42:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tc_AskAQueryBump status=SUCCESS method=Booking.tc_AskAQueryBump()[pri:12, instance:core.tests.Booking@27efef64] output={null}]]]>
+                <![CDATA[[TestResult name=tc_Account_Help_PRI_CanIPayOnlineUsingVoucher status=SUCCESS method=HelpAndSupport.tc_Account_Help_PRI_CanIPayOnlineUsingVoucher()[pri:37, instance:core.tests.HelpAndSupport@ae45eb6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- core.tests.Booking -->
+        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.HelpAndSupport@ae45eb6]" name="runOncePerMethod" is-config="true" duration-ms="15585" started-at="2019-11-26T17:42:29Z" finished-at="2019-11-26T17:42:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@16b2bb0c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void core.tests.HelpAndSupport.tc_Account_Help_PRI_CantFindInvoiceForMyPaymentMadeOnline() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerMethod -->
+        <test-method status="PASS" signature="tc_Account_Help_PRI_CantFindInvoiceForMyPaymentMadeOnline()[pri:38, instance:core.tests.HelpAndSupport@ae45eb6]" name="tc_Account_Help_PRI_CantFindInvoiceForMyPaymentMadeOnline" duration-ms="50057" started-at="2019-11-26T17:42:44Z" finished-at="2019-11-26T17:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Account_Help_PRI_CantFindInvoiceForMyPaymentMadeOnline -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.HelpAndSupport@ae45eb6]" name="tearDown" is-config="true" duration-ms="311" started-at="2019-11-26T17:43:34Z" finished-at="2019-11-26T17:43:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_Account_Help_PRI_CantFindInvoiceForMyPaymentMadeOnline status=SUCCESS method=HelpAndSupport.tc_Account_Help_PRI_CantFindInvoiceForMyPaymentMadeOnline()[pri:38, instance:core.tests.HelpAndSupport@ae45eb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.HelpAndSupport@ae45eb6]" name="runOncePerMethod" is-config="true" duration-ms="16051" started-at="2019-11-26T17:43:35Z" finished-at="2019-11-26T17:43:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@16b2bb0c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void core.tests.HelpAndSupport.tc_Account_Help_PRI_PaymentSuccessfulButApptNotBooked() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerMethod -->
+        <test-method status="PASS" signature="tc_Account_Help_PRI_PaymentSuccessfulButApptNotBooked()[pri:39, instance:core.tests.HelpAndSupport@ae45eb6]" name="tc_Account_Help_PRI_PaymentSuccessfulButApptNotBooked" duration-ms="50640" started-at="2019-11-26T17:43:51Z" finished-at="2019-11-26T17:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Account_Help_PRI_PaymentSuccessfulButApptNotBooked -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.HelpAndSupport@ae45eb6]" name="tearDown" is-config="true" duration-ms="278" started-at="2019-11-26T17:44:41Z" finished-at="2019-11-26T17:44:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_Account_Help_PRI_PaymentSuccessfulButApptNotBooked status=SUCCESS method=HelpAndSupport.tc_Account_Help_PRI_PaymentSuccessfulButApptNotBooked()[pri:39, instance:core.tests.HelpAndSupport@ae45eb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.HelpAndSupport@ae45eb6]" name="runOncePerMethod" is-config="true" duration-ms="16557" started-at="2019-11-26T17:44:42Z" finished-at="2019-11-26T17:44:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@16b2bb0c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void core.tests.HelpAndSupport.tc_Account_Help_PRI_PaymentFailedButMoneyGotDeducted() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerMethod -->
+        <test-method status="PASS" signature="tc_Account_Help_PRI_PaymentFailedButMoneyGotDeducted()[pri:40, instance:core.tests.HelpAndSupport@ae45eb6]" name="tc_Account_Help_PRI_PaymentFailedButMoneyGotDeducted" duration-ms="50351" started-at="2019-11-26T17:44:58Z" finished-at="2019-11-26T17:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Account_Help_PRI_PaymentFailedButMoneyGotDeducted -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.HelpAndSupport@ae45eb6]" name="tearDown" is-config="true" duration-ms="275" started-at="2019-11-26T17:45:48Z" finished-at="2019-11-26T17:45:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_Account_Help_PRI_PaymentFailedButMoneyGotDeducted status=SUCCESS method=HelpAndSupport.tc_Account_Help_PRI_PaymentFailedButMoneyGotDeducted()[pri:40, instance:core.tests.HelpAndSupport@ae45eb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.HelpAndSupport@ae45eb6]" name="runOncePerMethod" is-config="true" duration-ms="15756" started-at="2019-11-26T17:45:49Z" finished-at="2019-11-26T17:46:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@16b2bb0c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void core.tests.HelpAndSupport.tc_Account_Help_PRI_SelectedPayAtHospital() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerMethod -->
+        <test-method status="PASS" signature="tc_Account_Help_PRI_SelectedPayAtHospital()[pri:41, instance:core.tests.HelpAndSupport@ae45eb6]" name="tc_Account_Help_PRI_SelectedPayAtHospital" duration-ms="51953" started-at="2019-11-26T17:46:05Z" finished-at="2019-11-26T17:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Account_Help_PRI_SelectedPayAtHospital -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.HelpAndSupport@ae45eb6]" name="tearDown" is-config="true" duration-ms="285" started-at="2019-11-26T17:46:56Z" finished-at="2019-11-26T17:46:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_Account_Help_PRI_SelectedPayAtHospital status=SUCCESS method=HelpAndSupport.tc_Account_Help_PRI_SelectedPayAtHospital()[pri:41, instance:core.tests.HelpAndSupport@ae45eb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.HelpAndSupport@ae45eb6]" name="runOncePerMethod" is-config="true" duration-ms="15702" started-at="2019-11-26T17:46:57Z" finished-at="2019-11-26T17:47:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@16b2bb0c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void core.tests.HelpAndSupport.tc_Account_Help_PRI_WronglyChargedCancellationFees() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerMethod -->
+        <test-method status="PASS" signature="tc_Account_Help_PRI_WronglyChargedCancellationFees()[pri:42, instance:core.tests.HelpAndSupport@ae45eb6]" name="tc_Account_Help_PRI_WronglyChargedCancellationFees" duration-ms="52866" started-at="2019-11-26T17:47:12Z" finished-at="2019-11-26T17:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Account_Help_PRI_WronglyChargedCancellationFees -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.HelpAndSupport@ae45eb6]" name="tearDown" is-config="true" duration-ms="254" started-at="2019-11-26T17:48:05Z" finished-at="2019-11-26T17:48:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_Account_Help_PRI_WronglyChargedCancellationFees status=SUCCESS method=HelpAndSupport.tc_Account_Help_PRI_WronglyChargedCancellationFees()[pri:42, instance:core.tests.HelpAndSupport@ae45eb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- core.tests.HelpAndSupport -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

@@ -158,57 +158,67 @@ public class AccountPage extends FullPage {
 	
 	public void bookApptForFollowUpVisit() throws Exception {
 		accountHelpAndSupportBookAnAppointmentApptRelatedIssues();
+		swipeDownTillElement("howToBookAnApptForFollowupVisitBtn");
 		getControl("howToBookAnApptForFollowupVisitBtn").click();
 	}
 	
 	public void bookAnApptWithMyDoc() throws Exception {
 		accountHelpAndSupportBookAnAppointmentApptRelatedIssues();
+		swipeDownTillElement("howToBookAnAppointmentWithMyDoctorBtn");
 		getControl("howToBookAnAppointmentWithMyDoctorBtn").click();
 	}
 	
 	public void cannotSeeAvailableSlotsForMyDoc() throws Exception {
 		accountHelpAndSupportBookAnAppointmentApptRelatedIssues();
+		swipeDownTillElement("iCantSeeAvailableSlotsForMyDocBtn");
 		getControl("iCantSeeAvailableSlotsForMyDocBtn").click();
-		Thread.sleep(5000);
 	}
 	
 	public void didnotGetOTP() throws Exception {
 		accountHelpAndSupportBookAnAppointmentApptRelatedIssues();
+		swipeDownTillElement("iDidntGetOTPWhatToDoBtn");
 		getControl("iDidntGetOTPWhatToDoBtn").click();
 	}
 	
 	public void myContactNumberAlreadyShowingAsRegistered() throws Exception {
 		accountHelpAndSupportBookAnAppointmentApptRelatedIssues();
+		swipeDownTillElement("myContactNoIsAlreadyShowingAsRegisteredWhatShouldBeTheNextStepBtn");
 		getControl("myContactNoIsAlreadyShowingAsRegisteredWhatShouldBeTheNextStepBtn").click();
 	}
 	
 	public void validIdentityProofForMeOrMyChild() throws Exception {
 		accountHelpAndSupportBookAnAppointmentApptRelatedIssues();
+		swipeDownTillElement("whatAreTheValidIdentityProofForMyselfOrMyChildForRegBtn");
 		getControl("whatAreTheValidIdentityProofForMyselfOrMyChildForRegBtn").click();
 	}
 	
 	public void availableDoctorsRelatedToParticularSpeciality() throws Exception {
 		accountHelpAndSupportBookAnAppointmentApptRelatedIssues();
+		swipeDownTillElement("whoAreTheAvaiDocsRelatedToAParSpecialityBtn");
 		getControl("whoAreTheAvaiDocsRelatedToAParSpecialityBtn").click();
 	}
 	
 	public void cantCancelAppointment() throws Exception {
 		accountHelpAndSupportBookAnAppointmentApptRelatedIssues();
+		swipeDownTillElement("whyCantICancelMyAppointmentBtn");
 		getControl("whyCantICancelMyAppointmentBtn").click();
 	}
 	
 	public void cantSeeMyBookedAppointmentInApp() throws Exception {
 		accountHelpAndSupportBookAnAppointmentApptRelatedIssues();
+		swipeDownTillElement("whyCantISeeMyApptOnTheAppWhichIMadeThroughAppBtn");
 		getControl("whyCantISeeMyApptOnTheAppWhichIMadeThroughAppBtn").click();
 	}
 	
 	public void cantSeeMPINOrMPID() throws Exception {
 		accountHelpAndSupportBookAnAppointmentApptRelatedIssues();
+		swipeDownTillElement("whyCantSeeMyMPINOrMPIDDetailsBtn");
 		getControl("whyCantSeeMyMPINOrMPIDDetailsBtn").click();
 	}
 	
 	public void seeMyNameAsInvalid() throws Exception {
 		accountHelpAndSupportBookAnAppointmentApptRelatedIssues();
+		swipeDownTillElement("whyDoISeeMyNameIsInvalidBtn");
 		getControl("whyDoISeeMyNameIsInvalidBtn").click();
 	}
 	
@@ -224,7 +234,7 @@ public class AccountPage extends FullPage {
 		getControl("doctorHadLeftEarlyBtn").click();
 	}
 	
-	public void problemWithTheDoctorBtn() throws Exception {
+	public void problemWithTheDoctor() throws Exception {
 		accountHelpMiscDocRelatedIssues();
 		getControl("problemWithTheDoctorBtn").click();
 	}
@@ -295,6 +305,50 @@ public class AccountPage extends FullPage {
 		getControl("cryonineServicesBtn").click();
 	}
 	
+	/* Account -> Help&Support -> Payment Related Issues */
+	public void accountHelpPaymentRelatedIssues() throws Exception {
+		getControl("accountBtn").click();
+		getControl("helpAndSupportBtn").click();
+		getControl("paymentRelatedIssuesBtn").click();
+	}
+	
+	public void canIPayOnlineUsingVouchers() throws Exception {
+		accountHelpPaymentRelatedIssues();
+		getControl("howToResolvePaymentRelatedIssuesBtn").click();
+		getControl("canIPayOnlineUsingVouchersBtn").click();
+	}
+	
+	public void cantFindInvoiceForMypaymentMadeOnline() throws Exception {
+		accountHelpPaymentRelatedIssues();
+		getControl("howToResolvePaymentRelatedIssuesBtn").click();
+		getControl("iCantFindInvoiceForMyPaymentMadeOnlineBtn").click();
+	}
+	
+	public void paymentSuccessfulButApptNotBooked() throws Exception {
+		accountHelpPaymentRelatedIssues();
+		getControl("howToResolvePaymentRelatedIssuesBtn").click();
+		getControl("paymentSuccessfulButApptNotBookedBtn").click();
+	}
+	
+	public void paymentFailedButMoneyGotDeducted() throws Exception {
+		accountHelpPaymentRelatedIssues();
+		getControl("howToResolvePaymentRelatedIssuesBtn").click();
+		getControl("paymentFailedButMoneyGotDeductedBtn").click();
+	}
+	
+	public void selectedPayAtHospital() throws Exception {
+		accountHelpPaymentRelatedIssues();
+		getControl("howToResolvePaymentRelatedIssuesBtn").click();
+		getControl("selectedPayAtHospitalBtn").click();
+	}
+	
+	public void wronglyChargedCancellationFees() throws Exception {
+		accountHelpPaymentRelatedIssues();
+		getControl("howToResolvePaymentRelatedIssuesBtn").click();
+		getControl("wronglyChargedCancellationFeesBtn").click();
+	}
+	
+	/*Sign Out*/
 	public void signOutApp() throws Exception {
 		getControl("accountBtn").click();
 		swipeDown(1);
@@ -303,6 +357,7 @@ public class AccountPage extends FullPage {
 		Thread.sleep(3000);
 	}
 	
+	/*Invite Friend And Family*/
 	public void inviteFriendsAndFamily() throws Exception {
 		getControl("accountBtn").click();
 		getControl("inviteFamilyAndFriendsBtn").click();

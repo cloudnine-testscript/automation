@@ -263,7 +263,7 @@
 	"cryonineServicesBtn": {
 		"ANDROID": "xpath=//*[@text='Cryonine Services']"
 	},
-	"paymentRelatedServicesBtn": {
+	"paymentRelatedIssuesBtn": {
 		"ANDROID": "xpath=//*[@text='Payment Related Issues']"
 	},
 	"howToResolvePaymentRelatedIssuesBtn": {
@@ -281,7 +281,7 @@
 	"paymentFailedButMoneyGotDeductedBtn": {
 		"ANDROID": "xpath=//*[@text='Payment failed but money got deducted?']"
 	},
-	"selectPayAtHospitalBtn": {
+	"selectedPayAtHospitalBtn": {
 		"ANDROID": "xpath=//*[@text='Selected pay at Hospital?']"
 	},
 	"wronglyChargedCancellationFeesBtn": {

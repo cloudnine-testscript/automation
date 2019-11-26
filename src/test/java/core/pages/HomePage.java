@@ -1,5 +1,6 @@
 package core.pages;
 
+
 import java.util.Map;
 
 import org.testng.Assert;
@@ -29,7 +30,7 @@ public class HomePage extends FullPage {
 		getControl("consultationBtn").click();
 		Assert.assertEquals("This is the earliest availability for a consultation with Dr. Testobg Oar", getControl("thisIsTheEarliestAvailabilityForAConsultationtxt").getText());
 		getControl("selectDefaultTimeBtn").click();
-		//		Assert.assertEquals("Total amount ", getControl("totalAmountTxt").getText());
+		//Assert.assertEquals("Total amount ", getControl("totalAmountTxt").getText());
 		getControl("payAtHospitalBtn").click();
 	}
 

@@ -3,6 +3,7 @@ package core.tests;
 import org.testng.annotations.Test;
 
 public class HelpAndSupport extends SupportTest {
+	/*A Guide to it's Our baby Start*/
 	@Test(enabled = false, priority = 1)
 	public void tc_Account_Help_BookLabOrScan() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Book Lab Or Scan Start"));
@@ -74,7 +75,9 @@ public class HelpAndSupport extends SupportTest {
 		ap.mpin();
 		logger.debug(this.getTestEndInfoMessage("Account -> Help -> What Is MPIN End"));
 	}
-
+	/*A Guide to it's Our baby End*/
+	
+	/*Book An Appointment -> Appointment Related Issues Start*/
 	@Test(enabled = false, priority = 10)
 	public void tc_Account_Help_ARI_EligibleForDiscount() throws Exception {
 		logger.debug(this.getTestStartInfoMessage("Account -> Help -> ARI -> Eligible For Discount Start"));
@@ -210,12 +213,143 @@ public class HelpAndSupport extends SupportTest {
 		ap.seeMyNameAsInvalid();
 		logger.debug(this.getTestEndInfoMessage("Account -> Help -> ARI -> See My Name As Invalid End"));
 	}
-
+	/*Book An Appointment -> Appointment Related Issues End*/
+	
+	/*Miscellaneous -> Doctor Related Issues Start*/
 	@Test(enabled = false, priority = 27)
+	public void tc_Account_Help_Miscellaneous_DoctorLeftEarly() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Miscellaneous -> Doctor Related Issues -> Doctor Had Left Early Start"));
+		lp.login();
+		ap.doctorHadLeftEarly();
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Miscellaneous -> Doctor Related Issues -> Doctor Had Left Early End"));
+	}
+	
+	@Test(enabled = false, priority = 28)
+	public void tc_Account_Help_Miscellaneous_ProblemWithTheDoctor() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Miscellaneous -> Doctor Related Issues -> Problem With The Doctor Start"));
+		lp.login();
+		ap.problemWithTheDoctor();
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Miscellaneous -> Doctor Related Issues -> Problem With The Doctor End"));
+	}
+	/*Miscellaneous -> Doctor Related Issues End*/
+	
+	/*Miscellaneous -> EDD &LMP Start*/
+	@Test(enabled = false, priority = 29)
+	public void tc_Account_Help_Miscellaneous_HowIsEDDCalculated() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Miscellaneous -> EDD & LMP -> How Is EDD Calculated Start"));
+		lp.login();
+		ap.howIsEDDCalculated();
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Miscellaneous -> EDD & LMP -> How Is EDD Calculated End"));
+	}
+	
+	@Test(enabled = false, priority = 30)
+	public void tc_Account_Help_Miscellaneous_HowToChangeLMP() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Miscellaneous -> EDD & LMP -> How To Change LMP Start"));
+		lp.login();
+		ap.howToChangeLMP();
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Miscellaneous -> EDD & LMP -> How To Change LMP End"));
+	}
+	
+	@Test(enabled = false, priority = 31)
+	public void tc_Account_Help_Miscellaneous_BabyAgeDiffInScanFromPregnancy() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Miscellaneous -> EDD & LMP -> Baby Age Different In Scan From Pregnancy Start"));
+		lp.login();
+		ap.myBabysAgeInTheReportIsDiff();
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Miscellaneous -> EDD & LMP -> Baby Age Different In Scan From Pregnancy End"));
+	}
+	
+	@Test(enabled = false, priority = 32)
+	public void tc_Account_Help_Miscellaneous_WhatISEDD() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Miscellaneous -> EDD & LMP -> What Is EDD Start"));
+		lp.login();
+		ap.whatIsEDD();
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Miscellaneous -> EDD & LMP -> What IS EDD End"));
+	}
+	
+	@Test(enabled = false, priority = 33)
+	public void tc_Account_Help_Miscellaneous_WhatISLMP() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Miscellaneous -> EDD & LMP -> What Is LMP Start"));
+		lp.login();
+		ap.whatIsLMP();
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Miscellaneous -> EDD & LMP -> What IS LMP End"));
+	}
+	/*Miscellaneous -> EDD &LMP End*/
+	
+	/*Miscellaneous -> Feedback Start*/
+	@Test(enabled = false, priority = 34)
+	public void tc_Account_Help_Miscellaneous_Feedback() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Miscellaneous -> Feedback -> Give Your Feedback Start"));
+		lp.login();
+		ap.getYourFeedback();
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Miscellaneous -> Feedback -> Give Your Feedback End"));
+	}
+	/*Miscellaneous -> Feedback End*/
+	
+	/*Other Services Start*/
+	@Test(enabled = false, priority = 35)
 	public void tc_Account_Help_ARI_GkVale() throws Exception {
-		logger.debug(this.getTestStartInfoMessage("Account -> Help -> ARI -> GkVale Start"));
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Other Services -> Photoraphy -> GkVale Start"));
 		lp.login();
 		ap.gkVale();
-		logger.debug(this.getTestEndInfoMessage("Account -> Help -> ARI -> GkVale End"));
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Other Services -> Photoraphy -> GkVale End"));
 	}
+	
+	@Test(enabled = false, priority = 36)
+	public void tc_Account_Help_ARI_CryonineServices() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Other Services -> Stem Cell Banking -> Cryonine Services Start"));
+		lp.login();
+		ap.cryonineServices();
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Other Services -> Stem Cell Banking -> Cryonine Services End"));
+	}
+	/*Other Services End*/
+	
+	/*Payment Related Issues Start*/
+	@Test(enabled = true, priority = 37)
+	public void tc_Account_Help_PRI_CanIPayOnlineUsingVoucher() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Payment Related Issues -> How To Resolve Payment Related Issues -> Can I Pay Online using Vouchers Start"));
+		lp.login();
+		ap.canIPayOnlineUsingVouchers();
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Payment Related Issues -> How To Resolve Payment Related Issues -> Can I Pay Online using Vouchers End"));
+	}
+	
+	@Test(enabled = true, priority = 38)
+	public void tc_Account_Help_PRI_CantFindInvoiceForMyPaymentMadeOnline() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Payment Related Issues -> How To Resolve Payment Related Issues -> Can't Find Invoice For My Payment Made Online Start"));
+		lp.login();
+		ap.cantFindInvoiceForMypaymentMadeOnline();
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Payment Related Issues -> How To Resolve Payment Related Issues -> Can't Find Invoice For My Payment Made Online End"));
+	}
+	
+	@Test(enabled = true, priority = 39)
+	public void tc_Account_Help_PRI_PaymentSuccessfulButApptNotBooked() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Payment Related Issues -> How To Resolve Payment Related Issues -> Payment Successful But Appointment Not Booked Start"));
+		lp.login();
+		ap.cantFindInvoiceForMypaymentMadeOnline();
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Payment Related Issues -> How To Resolve Payment Related Issues -> Payment Successful But Appointment Not Booked End"));
+	}
+	
+	@Test(enabled = true, priority = 40)
+	public void tc_Account_Help_PRI_PaymentFailedButMoneyGotDeducted() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Payment Related Issues -> How To Resolve Payment Related Issues -> Payment Failed But Money Got Deducted Start"));
+		lp.login();
+		ap.paymentFailedButMoneyGotDeducted();
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Payment Related Issues -> How To Resolve Payment Related Issues -> Payment Failed But Money Got Deducted End"));
+	}
+	
+	@Test(enabled = true, priority = 41)
+	public void tc_Account_Help_PRI_SelectedPayAtHospital() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Payment Related Issues -> How To Resolve Payment Related Issues -> Selected Pay At Hospital Start"));
+		lp.login();
+		ap.selectedPayAtHospital();
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Payment Related Issues -> How To Resolve Payment Related Issues -> Selected Pay At Hospital End"));
+	}
+	
+	@Test(enabled = true, priority = 42)
+	public void tc_Account_Help_PRI_WronglyChargedCancellationFees() throws Exception {
+		logger.debug(this.getTestStartInfoMessage("Account -> Help -> Payment Related Issues -> How To Resolve Payment Related Issues -> Wrongly Charged Cancellation Fees Start"));
+		lp.login();
+		ap.wronglyChargedCancellationFees();
+		logger.debug(this.getTestEndInfoMessage("Account -> Help -> Payment Related Issues -> How To Resolve Payment Related Issues -> Wrongly Charged Cancellation Fees End"));
+	}
+	/*Payment Related Issues End*/
 }
